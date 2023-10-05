@@ -2,15 +2,15 @@
 
   (uuid 927a7cc3-adef-4038-bac9-eaec00344223)
 
-  (paper "A4")
+  (paper "A3")
 
   (title_block
-    (title "DRIVER CONTROL UNIT (DCU)")
+    (title "VEHICLE MEASURING UNIT (VMU)")
     (rev "2.0")
     (company "KTH FORMULA STUDENT")
-    (comment 1 "DeV17")
-    (comment 2 "JOACHIM LARSSON")
-    (comment 3 "JOACLA@KTH.SE")
+    (comment 1 "DeV17/DeV18")
+    (comment 2 "FILIP SVEBECK")
+    (comment 3 "FSVEBECK@KTH.SE")
   )
 
   (lib_symbols
@@ -632,6 +632,9 @@
   (junction (at 203.2 28.575) (diameter 0) (color 0 0 0 0)
     (uuid 4636301d-1c0f-4a3a-9d93-dbb49e191493)
   )
+  (junction (at 309.88 136.525) (diameter 0) (color 0 0 0 0)
+    (uuid 485940f9-9183-4c8d-a6a6-3efb16d557df)
+  )
   (junction (at 114.3 100.965) (diameter 0) (color 0 0 0 0)
     (uuid 499d2763-bd61-4216-8c60-2fd9d7e30ade)
   )
@@ -640,6 +643,9 @@
   )
   (junction (at 203.2 63.5) (diameter 0) (color 0 0 0 0)
     (uuid 58034eef-0908-4882-9bab-cd9678c30997)
+  )
+  (junction (at 309.88 31.75) (diameter 0) (color 0 0 0 0)
+    (uuid 5d853cd9-6731-4f21-9132-12d3919294a5)
   )
   (junction (at 82.55 63.5) (diameter 0) (color 0 0 0 0)
     (uuid 65e2d031-602a-4de8-b8c8-555ce4479c3d)
@@ -653,20 +659,32 @@
   (junction (at 82.55 28.575) (diameter 0) (color 0 0 0 0)
     (uuid 7011517c-1be0-43ef-bd13-176b74249666)
   )
+  (junction (at 354.33 69.215) (diameter 0) (color 0 0 0 0)
+    (uuid 72b7c851-b187-4a0f-8174-e131c6ca95d3)
+  )
   (junction (at 190.5 28.575) (diameter 0) (color 0 0 0 0)
     (uuid 75b10c28-e939-4b9e-9023-2db69610085a)
   )
   (junction (at 234.95 66.04) (diameter 0) (color 0 0 0 0)
     (uuid 77dba348-2f27-4483-b37c-245e162dac97)
   )
+  (junction (at 322.58 136.525) (diameter 0) (color 0 0 0 0)
+    (uuid 84318a9c-a05a-4b7b-9a40-166099716890)
+  )
   (junction (at 69.85 28.575) (diameter 0) (color 0 0 0 0)
     (uuid 868613a7-7464-4f8d-ad75-7475102de8c3)
+  )
+  (junction (at 354.33 34.29) (diameter 0) (color 0 0 0 0)
+    (uuid 98d96679-a085-4905-aa8d-7e6bb840afda)
   )
   (junction (at 82.55 133.35) (diameter 0) (color 0 0 0 0)
     (uuid 9a4b0757-7e5e-4372-89d1-4e1f82f819be)
   )
   (junction (at 82.55 98.425) (diameter 0) (color 0 0 0 0)
     (uuid a0bbf4f2-e319-46db-8e5a-698bc2d49653)
+  )
+  (junction (at 309.88 66.675) (diameter 0) (color 0 0 0 0)
+    (uuid a5a2b69b-5cca-4ca9-ac52-37c71f352f02)
   )
   (junction (at 114.3 66.04) (diameter 0) (color 0 0 0 0)
     (uuid a9b33891-e9e5-405b-8a6c-6ce9cc71ae21)
@@ -677,8 +695,20 @@
   (junction (at 203.2 98.425) (diameter 0) (color 0 0 0 0)
     (uuid b23c2741-d338-48d7-b6b8-1ecdc6593ea6)
   )
+  (junction (at 354.33 104.14) (diameter 0) (color 0 0 0 0)
+    (uuid b7fa7f52-eeb7-4d10-82f3-83d2a9fb8592)
+  )
+  (junction (at 322.58 101.6) (diameter 0) (color 0 0 0 0)
+    (uuid badd8548-d36e-42f7-8bf9-8b244f069611)
+  )
   (junction (at 69.85 98.425) (diameter 0) (color 0 0 0 0)
     (uuid c62ddb46-0667-4c10-9048-fc44195a376d)
+  )
+  (junction (at 309.88 101.6) (diameter 0) (color 0 0 0 0)
+    (uuid ce446358-2562-49a9-a03a-189d2a054dbe)
+  )
+  (junction (at 322.58 66.675) (diameter 0) (color 0 0 0 0)
+    (uuid d19f1eba-3ff3-4157-bdce-7e7e9fded8b9)
   )
   (junction (at 76.2 174.625) (diameter 0) (color 0 0 0 0)
     (uuid e464d0bb-326d-45f0-9b46-e760acb36b84)
@@ -689,8 +719,14 @@
   (junction (at 69.85 63.5) (diameter 0) (color 0 0 0 0)
     (uuid ee9be909-605d-421b-a681-7a42a5013ca1)
   )
+  (junction (at 322.58 31.75) (diameter 0) (color 0 0 0 0)
+    (uuid efb81129-8f55-4b07-8bd2-0ff03ab7c4bd)
+  )
   (junction (at 114.3 31.115) (diameter 0) (color 0 0 0 0)
     (uuid f229212c-61a1-4585-a94d-50ca479b34d8)
+  )
+  (junction (at 354.33 139.065) (diameter 0) (color 0 0 0 0)
+    (uuid fe7d0593-9197-4d13-b9c8-76e325775033)
   )
 
   (wire (pts (xy 152.4 133.35) (xy 152.4 127))
@@ -700,6 +736,10 @@
   (wire (pts (xy 171.45 36.195) (xy 171.45 41.275))
     (stroke (width 0) (type default))
     (uuid 0263f446-ed96-4cf6-8c08-a0bb1ee1ec29)
+  )
+  (wire (pts (xy 332.105 71.755) (xy 332.105 79.375))
+    (stroke (width 0) (type default))
+    (uuid 04f7d082-a5ac-4335-b095-370cd90ffb74)
   )
   (wire (pts (xy 114.3 174.625) (xy 108.585 174.625))
     (stroke (width 0) (type default))
@@ -713,6 +753,14 @@
     (stroke (width 0) (type default))
     (uuid 069424cb-28d1-424e-bc40-01c4e50923bc)
   )
+  (wire (pts (xy 290.83 59.055) (xy 290.83 57.15))
+    (stroke (width 0) (type default))
+    (uuid 089a14db-c462-4960-8fd8-2df726618cea)
+  )
+  (wire (pts (xy 290.83 24.13) (xy 290.83 22.225))
+    (stroke (width 0) (type default))
+    (uuid 0ab90a20-379e-4d52-ae62-97410c46fddb)
+  )
   (wire (pts (xy 177.165 133.35) (xy 176.53 133.35))
     (stroke (width 0) (type default))
     (uuid 0abcf6d0-2846-4d25-a6eb-02a9b0e64e0a)
@@ -721,6 +769,10 @@
     (stroke (width 0) (type default))
     (uuid 0b31aaff-8036-45fc-a579-e53938b4a6f7)
   )
+  (wire (pts (xy 290.83 74.295) (xy 290.83 79.375))
+    (stroke (width 0) (type default))
+    (uuid 0b6ae24d-17cd-481c-b397-42f8412addef)
+  )
   (wire (pts (xy 171.45 140.97) (xy 171.45 146.05))
     (stroke (width 0) (type default))
     (uuid 0b78b812-7c38-46cb-9ba2-56c690e4c839)
@@ -728,6 +780,14 @@
   (wire (pts (xy 240.665 100.965) (xy 234.95 100.965))
     (stroke (width 0) (type default))
     (uuid 0d3ec6de-cbb1-4388-8953-b9f84fe66e32)
+  )
+  (wire (pts (xy 309.88 66.675) (xy 309.88 69.215))
+    (stroke (width 0) (type default))
+    (uuid 0d70cfa1-cf58-4160-9bbb-a894affe90f6)
+  )
+  (wire (pts (xy 335.28 141.605) (xy 331.47 141.605))
+    (stroke (width 0) (type default))
+    (uuid 0d8db31c-6ce2-481e-970e-bb6a311c876b)
   )
   (wire (pts (xy 212.725 111.125) (xy 234.95 111.125))
     (stroke (width 0) (type default))
@@ -757,6 +817,10 @@
     (stroke (width 0) (type default))
     (uuid 14c384ba-9de4-46b8-9db8-d3df0e5b032b)
   )
+  (wire (pts (xy 322.58 76.835) (xy 322.58 79.375))
+    (stroke (width 0) (type default))
+    (uuid 14edc804-a4c4-4eae-866e-2a3b1d97e119)
+  )
   (wire (pts (xy 203.2 133.35) (xy 190.5 133.35))
     (stroke (width 0) (type default))
     (uuid 15bf44b4-6fc4-41ee-aba7-08a73b654256)
@@ -773,6 +837,10 @@
     (stroke (width 0) (type default))
     (uuid 19889bbf-6239-40c7-8158-84f4c86384ad)
   )
+  (wire (pts (xy 290.83 144.145) (xy 290.83 149.225))
+    (stroke (width 0) (type default))
+    (uuid 1a6ee442-0975-42d3-acfe-14f0a33a630c)
+  )
   (wire (pts (xy 69.85 28.575) (xy 64.135 28.575))
     (stroke (width 0) (type default))
     (uuid 1abf1c66-29b0-48e1-a452-a13707b4943f)
@@ -781,9 +849,21 @@
     (stroke (width 0) (type default))
     (uuid 1b4f98bf-a2d2-41ad-8fb2-417909d7f0ae)
   )
+  (wire (pts (xy 322.58 111.76) (xy 322.58 114.3))
+    (stroke (width 0) (type default))
+    (uuid 1cbda2d5-fac9-43a2-8a44-f27b4006c715)
+  )
+  (wire (pts (xy 290.83 127) (xy 290.83 128.905))
+    (stroke (width 0) (type default))
+    (uuid 1dbbf28e-98c6-4654-a60e-09939c7f32bf)
+  )
   (wire (pts (xy 69.85 98.425) (xy 64.135 98.425))
     (stroke (width 0) (type default))
     (uuid 1e66d205-118c-4c54-aae3-bf752eb5cab7)
+  )
+  (wire (pts (xy 295.91 66.675) (xy 296.545 66.675))
+    (stroke (width 0) (type default))
+    (uuid 1e69337d-160b-45c7-84a1-8d91ea052cf0)
   )
   (wire (pts (xy 203.2 38.735) (xy 203.2 41.275))
     (stroke (width 0) (type default))
@@ -792,6 +872,10 @@
   (wire (pts (xy 92.075 41.275) (xy 114.3 41.275))
     (stroke (width 0) (type default))
     (uuid 1ed29f34-cd0c-4000-a7c4-6c2243d2b3ac)
+  )
+  (wire (pts (xy 360.045 104.14) (xy 354.33 104.14))
+    (stroke (width 0) (type default))
+    (uuid 1fc5e4b8-ef88-4e75-9e3f-baf8c3938966)
   )
   (wire (pts (xy 176.53 63.5) (xy 177.165 63.5))
     (stroke (width 0) (type default))
@@ -805,6 +889,10 @@
     (stroke (width 0) (type default))
     (uuid 244aa6eb-5d7a-44f5-b2e1-f92cd563a7c5)
   )
+  (wire (pts (xy 285.75 101.6) (xy 285.115 101.6))
+    (stroke (width 0) (type default))
+    (uuid 25a49162-b01c-4c9b-b62e-63679bfdb330)
+  )
   (wire (pts (xy 50.8 125.73) (xy 50.8 123.825))
     (stroke (width 0) (type default))
     (uuid 272a0345-140d-49a1-ab81-8bbc77d7bc76)
@@ -813,9 +901,21 @@
     (stroke (width 0) (type default))
     (uuid 27f69578-278b-447a-b12e-13e99a0ea1f1)
   )
+  (wire (pts (xy 322.58 41.91) (xy 322.58 44.45))
+    (stroke (width 0) (type default))
+    (uuid 2824358b-7594-4db6-a99d-4c9d6108c1a4)
+  )
+  (wire (pts (xy 309.88 136.525) (xy 309.88 139.065))
+    (stroke (width 0) (type default))
+    (uuid 284b756e-72f5-4bb7-8c65-154943f50cb7)
+  )
   (wire (pts (xy 76.2 174.625) (xy 76.2 177.165))
     (stroke (width 0) (type default))
     (uuid 28d769ef-98fe-4004-a540-f01d098350ec)
+  )
+  (wire (pts (xy 295.91 31.75) (xy 296.545 31.75))
+    (stroke (width 0) (type default))
+    (uuid 2c3f55f7-df73-494e-93f4-8fffdb7cd8fa)
   )
   (wire (pts (xy 95.25 68.58) (xy 92.075 68.58))
     (stroke (width 0) (type default))
@@ -832,6 +932,14 @@
   (wire (pts (xy 133.35 31.115) (xy 127.635 31.115))
     (stroke (width 0) (type default))
     (uuid 2f9f6d72-3fe9-4995-96ac-939bb177c850)
+  )
+  (wire (pts (xy 309.88 111.76) (xy 309.88 114.3))
+    (stroke (width 0) (type default))
+    (uuid 30104fc3-465f-44d7-9ea0-456867e02b00)
+  )
+  (wire (pts (xy 332.105 79.375) (xy 354.33 79.375))
+    (stroke (width 0) (type default))
+    (uuid 3041f0be-d809-4e96-bdd1-e4ba382a1775)
   )
   (wire (pts (xy 127.635 100.965) (xy 133.35 100.965))
     (stroke (width 0) (type default))
@@ -881,9 +989,21 @@
     (stroke (width 0) (type default))
     (uuid 37d51c4c-002a-4d4b-bd3d-1b694310e1a7)
   )
+  (wire (pts (xy 271.78 95.25) (xy 271.78 101.6))
+    (stroke (width 0) (type default))
+    (uuid 3848e0ae-ba45-45d9-80c0-57edc269a5e6)
+  )
+  (wire (pts (xy 285.115 66.675) (xy 285.75 66.675))
+    (stroke (width 0) (type default))
+    (uuid 3ae523c3-3a52-4c20-8599-28e10d3f915d)
+  )
   (wire (pts (xy 231.14 135.89) (xy 234.95 135.89))
     (stroke (width 0) (type default))
     (uuid 3ea88cbc-946e-4f90-bab9-9a7650ab4483)
+  )
+  (wire (pts (xy 367.665 34.29) (xy 373.38 34.29))
+    (stroke (width 0) (type default))
+    (uuid 41982478-513f-41fc-8a6d-46f9d5120e94)
   )
   (wire (pts (xy 69.85 108.585) (xy 69.85 111.125))
     (stroke (width 0) (type default))
@@ -897,9 +1017,17 @@
     (stroke (width 0) (type default))
     (uuid 44e8a55d-07cb-48eb-a361-4807ac40832e)
   )
+  (wire (pts (xy 350.52 139.065) (xy 354.33 139.065))
+    (stroke (width 0) (type default))
+    (uuid 4516a6b3-ab18-435a-9336-756a4a96352c)
+  )
   (wire (pts (xy 92.075 146.05) (xy 114.3 146.05))
     (stroke (width 0) (type default))
     (uuid 48fcea20-f74e-42cd-bfd4-a565921f1d95)
+  )
+  (wire (pts (xy 309.88 41.91) (xy 309.88 44.45))
+    (stroke (width 0) (type default))
+    (uuid 49173376-bc5b-4826-9656-82d6f0d04361)
   )
   (wire (pts (xy 190.5 28.575) (xy 190.5 31.115))
     (stroke (width 0) (type default))
@@ -913,6 +1041,10 @@
     (stroke (width 0) (type default))
     (uuid 4beb54f2-c48e-4ce9-b257-c0469c319c79)
   )
+  (wire (pts (xy 332.105 44.45) (xy 354.33 44.45))
+    (stroke (width 0) (type default))
+    (uuid 4c7fbd3f-f6a3-4c55-be69-0e7bfad895ec)
+  )
   (wire (pts (xy 212.725 138.43) (xy 212.725 146.05))
     (stroke (width 0) (type default))
     (uuid 4d416b94-e122-439c-9bbc-3083194931a2)
@@ -925,6 +1057,10 @@
     (stroke (width 0) (type default))
     (uuid 5058e1da-a979-4acf-a278-2381fc7fb0b0)
   )
+  (wire (pts (xy 322.58 136.525) (xy 309.88 136.525))
+    (stroke (width 0) (type default))
+    (uuid 50a329ba-829b-4fc4-829e-d4d5bb455dac)
+  )
   (wire (pts (xy 203.2 100.965) (xy 203.2 98.425))
     (stroke (width 0) (type default))
     (uuid 54c0c6c3-f5d1-4fc0-b2a1-a96230af840d)
@@ -932,6 +1068,14 @@
   (wire (pts (xy 123.825 190.5) (xy 146.05 190.5))
     (stroke (width 0) (type default))
     (uuid 577fac0d-3636-4012-b784-fd2893cbb999)
+  )
+  (wire (pts (xy 360.045 69.215) (xy 354.33 69.215))
+    (stroke (width 0) (type default))
+    (uuid 57809e36-c291-4130-8129-19db94771f1d)
+  )
+  (wire (pts (xy 309.88 76.835) (xy 309.88 79.375))
+    (stroke (width 0) (type default))
+    (uuid 579f912f-2bc4-4fd1-94ac-3cd701216377)
   )
   (wire (pts (xy 248.285 31.115) (xy 254 31.115))
     (stroke (width 0) (type default))
@@ -949,9 +1093,17 @@
     (stroke (width 0) (type default))
     (uuid 5ad80fc8-72da-4919-8135-609a5e94c06c)
   )
+  (wire (pts (xy 290.83 39.37) (xy 290.83 44.45))
+    (stroke (width 0) (type default))
+    (uuid 5b5faed5-8af5-40bc-b384-9875c8fded21)
+  )
   (wire (pts (xy 152.4 63.5) (xy 158.115 63.5))
     (stroke (width 0) (type default))
     (uuid 5bc07c9b-5c4e-4555-a569-971f4f353edc)
+  )
+  (wire (pts (xy 296.545 136.525) (xy 295.91 136.525))
+    (stroke (width 0) (type default))
+    (uuid 5edc8ba7-5a52-4ab8-9242-91721623dffe)
   )
   (wire (pts (xy 82.55 135.89) (xy 82.55 133.35))
     (stroke (width 0) (type default))
@@ -961,9 +1113,17 @@
     (stroke (width 0) (type default))
     (uuid 641b2d11-7d4f-43a3-a515-fda3bb54068f)
   )
+  (wire (pts (xy 354.33 44.45) (xy 354.33 34.29))
+    (stroke (width 0) (type default))
+    (uuid 649ee689-05d0-426f-a45c-28ac7bfba0f6)
+  )
   (wire (pts (xy 82.55 98.425) (xy 82.55 100.965))
     (stroke (width 0) (type default))
     (uuid 65aee504-edc4-4269-b104-a4e4c2d89b6e)
+  )
+  (wire (pts (xy 322.58 104.14) (xy 322.58 101.6))
+    (stroke (width 0) (type default))
+    (uuid 65c905ae-b7eb-4e88-9b38-15388ac58bf4)
   )
   (wire (pts (xy 114.3 177.165) (xy 114.3 174.625))
     (stroke (width 0) (type default))
@@ -997,6 +1157,10 @@
     (stroke (width 0) (type default))
     (uuid 69c95f55-3a05-4fdc-a3a2-b192af014e61)
   )
+  (wire (pts (xy 335.28 36.83) (xy 332.105 36.83))
+    (stroke (width 0) (type default))
+    (uuid 69cb4d43-40aa-49dc-a47f-c644e79c992f)
+  )
   (wire (pts (xy 215.9 133.35) (xy 203.2 133.35))
     (stroke (width 0) (type default))
     (uuid 6ae93656-6dbb-496e-aa46-a2ffa30dc994)
@@ -1017,6 +1181,18 @@
     (stroke (width 0) (type default))
     (uuid 6e7994de-c819-4338-a01a-e485ffc9d8be)
   )
+  (wire (pts (xy 271.78 31.75) (xy 271.78 25.4))
+    (stroke (width 0) (type default))
+    (uuid 6f35816e-233c-4cd0-9298-c629a1b7e795)
+  )
+  (wire (pts (xy 271.78 25.4) (xy 265.43 25.4))
+    (stroke (width 0) (type default))
+    (uuid 6f3b8ea3-e500-4d08-b138-1cae17078b20)
+  )
+  (wire (pts (xy 335.28 106.68) (xy 332.105 106.68))
+    (stroke (width 0) (type default))
+    (uuid 70cdc721-f9e5-42d7-820d-50f34490ade0)
+  )
   (wire (pts (xy 190.5 133.35) (xy 184.785 133.35))
     (stroke (width 0) (type default))
     (uuid 711acab0-5278-4a04-a063-81e99bc90fef)
@@ -1028,6 +1204,10 @@
   (wire (pts (xy 37.465 133.35) (xy 31.75 133.35))
     (stroke (width 0) (type default))
     (uuid 7388c1f1-d295-47bf-a171-25788559493b)
+  )
+  (wire (pts (xy 335.28 101.6) (xy 322.58 101.6))
+    (stroke (width 0) (type default))
+    (uuid 73cb404f-5824-4374-8499-43b099bb6083)
   )
   (wire (pts (xy 95.25 98.425) (xy 82.55 98.425))
     (stroke (width 0) (type default))
@@ -1061,6 +1241,10 @@
     (stroke (width 0) (type default))
     (uuid 78129b00-f527-4f54-b26d-0c79245f541a)
   )
+  (wire (pts (xy 335.28 31.75) (xy 322.58 31.75))
+    (stroke (width 0) (type default))
+    (uuid 79192273-1d58-4933-8956-c510051b0f5d)
+  )
   (wire (pts (xy 152.4 92.075) (xy 152.4 98.425))
     (stroke (width 0) (type default))
     (uuid 7993fd59-5571-46f1-9b5d-b46f919c6f13)
@@ -1072,6 +1256,10 @@
   (wire (pts (xy 215.9 63.5) (xy 203.2 63.5))
     (stroke (width 0) (type default))
     (uuid 7a1040e0-3bde-4c4d-82c7-7754ead83f09)
+  )
+  (wire (pts (xy 271.78 130.175) (xy 265.43 130.175))
+    (stroke (width 0) (type default))
+    (uuid 7c50c5bf-e3d9-43af-8c72-1bf2ac2ce0f5)
   )
   (wire (pts (xy 82.55 146.05) (xy 82.55 143.51))
     (stroke (width 0) (type default))
@@ -1105,13 +1293,25 @@
     (stroke (width 0) (type default))
     (uuid 8318475e-8527-4e83-b7aa-bffa7f307c62)
   )
+  (wire (pts (xy 322.58 101.6) (xy 309.88 101.6))
+    (stroke (width 0) (type default))
+    (uuid 83504c53-dcc4-4a25-a1c5-aa1f74720cb2)
+  )
   (wire (pts (xy 92.075 68.58) (xy 92.075 74.93))
     (stroke (width 0) (type default))
     (uuid 83adaabb-e40c-4e7e-88c8-d6d94508750d)
   )
+  (wire (pts (xy 335.28 136.525) (xy 322.58 136.525))
+    (stroke (width 0) (type default))
+    (uuid 843eb96e-07c8-4971-b3ba-0645b6baad7f)
+  )
   (wire (pts (xy 133.35 66.04) (xy 127.635 66.04))
     (stroke (width 0) (type default))
     (uuid 84a78473-2861-4205-832e-1ca6226cf125)
+  )
+  (wire (pts (xy 354.33 79.375) (xy 354.33 69.215))
+    (stroke (width 0) (type default))
+    (uuid 84b0a159-3d8e-40f6-987d-601a248c3c30)
   )
   (wire (pts (xy 171.45 123.825) (xy 171.45 125.73))
     (stroke (width 0) (type default))
@@ -1125,9 +1325,21 @@
     (stroke (width 0) (type default))
     (uuid 88757f54-0244-4080-a7fc-bcb3752dae53)
   )
+  (wire (pts (xy 271.78 31.75) (xy 277.495 31.75))
+    (stroke (width 0) (type default))
+    (uuid 8876867e-4434-43d2-94e5-8c969a46099b)
+  )
+  (wire (pts (xy 360.045 34.29) (xy 354.33 34.29))
+    (stroke (width 0) (type default))
+    (uuid 8be738b6-34dc-4e60-9326-1945ad28dad0)
+  )
   (wire (pts (xy 110.49 66.04) (xy 114.3 66.04))
     (stroke (width 0) (type default))
     (uuid 8e8ae616-a3dd-450a-8de2-5906a2fd35d5)
+  )
+  (wire (pts (xy 331.47 149.86) (xy 354.33 149.86))
+    (stroke (width 0) (type default))
+    (uuid 8e8c8935-b2ce-43d7-b08b-1c68f479ecfe)
   )
   (wire (pts (xy 95.25 63.5) (xy 82.55 63.5))
     (stroke (width 0) (type default))
@@ -1137,9 +1349,17 @@
     (stroke (width 0) (type default))
     (uuid 9084b7c8-e48a-4aa3-9c5f-3e31c226b691)
   )
+  (wire (pts (xy 271.78 60.325) (xy 271.78 66.675))
+    (stroke (width 0) (type default))
+    (uuid 91482d8d-cca2-4844-95c3-3e8132628111)
+  )
   (wire (pts (xy 95.25 138.43) (xy 92.075 138.43))
     (stroke (width 0) (type default))
     (uuid 921dc723-4a7b-4fe7-b2f2-5b6c6930fe25)
+  )
+  (wire (pts (xy 290.83 109.22) (xy 290.83 114.3))
+    (stroke (width 0) (type default))
+    (uuid 92b9e3d3-553a-4b3a-aed1-9f9d03d8e4ad)
   )
   (wire (pts (xy 171.45 71.12) (xy 171.45 76.2))
     (stroke (width 0) (type default))
@@ -1169,6 +1389,18 @@
     (stroke (width 0) (type default))
     (uuid 985661ac-7b79-4a14-861f-574618e75c05)
   )
+  (wire (pts (xy 354.33 104.14) (xy 350.52 104.14))
+    (stroke (width 0) (type default))
+    (uuid 9ad2aac8-434a-471a-80f8-ed2c0969e0f3)
+  )
+  (wire (pts (xy 304.165 31.75) (xy 309.88 31.75))
+    (stroke (width 0) (type default))
+    (uuid 9f6154f4-ba49-4dcc-9687-f9925e7046c9)
+  )
+  (wire (pts (xy 304.165 66.675) (xy 309.88 66.675))
+    (stroke (width 0) (type default))
+    (uuid 9fbbe6b3-0c63-4c42-acd7-43538ac7c6ef)
+  )
   (wire (pts (xy 123.825 179.705) (xy 123.825 190.5))
     (stroke (width 0) (type default))
     (uuid a0e55b1b-7c8b-4f84-8ee8-7d9b50088b96)
@@ -1184,6 +1416,10 @@
   (wire (pts (xy 190.5 108.585) (xy 190.5 111.125))
     (stroke (width 0) (type default))
     (uuid a27c3c47-c809-468f-b58d-aaeb8650fe9e)
+  )
+  (wire (pts (xy 331.47 141.605) (xy 331.47 149.86))
+    (stroke (width 0) (type default))
+    (uuid a2e5316d-9a9e-4a2f-8907-340ce8b552e5)
   )
   (wire (pts (xy 69.85 63.5) (xy 64.135 63.5))
     (stroke (width 0) (type default))
@@ -1205,6 +1441,14 @@
     (stroke (width 0) (type default))
     (uuid a95384ea-7719-4f4f-8e85-0bf1a03b0ad3)
   )
+  (wire (pts (xy 354.33 34.29) (xy 350.52 34.29))
+    (stroke (width 0) (type default))
+    (uuid aa6b23d5-822b-4a65-b096-9a6bbd00e5cb)
+  )
+  (wire (pts (xy 322.58 31.75) (xy 322.58 34.29))
+    (stroke (width 0) (type default))
+    (uuid aaec1153-6170-44d7-91ac-c0399b1d0cd7)
+  )
   (wire (pts (xy 215.9 68.58) (xy 212.725 68.58))
     (stroke (width 0) (type default))
     (uuid abe04e8b-1618-493f-a020-7ce2ff0c494a)
@@ -1213,13 +1457,29 @@
     (stroke (width 0) (type default))
     (uuid ac437dc9-27c9-4078-813e-605261cc6372)
   )
+  (wire (pts (xy 277.495 136.525) (xy 271.78 136.525))
+    (stroke (width 0) (type default))
+    (uuid acf942a6-33be-4130-a33a-478dc176c738)
+  )
   (wire (pts (xy 50.8 146.05) (xy 50.8 140.97))
     (stroke (width 0) (type default))
     (uuid ad613898-c50d-4615-8644-cbdc4efb5ccb)
   )
+  (wire (pts (xy 367.665 139.065) (xy 373.38 139.065))
+    (stroke (width 0) (type default))
+    (uuid ae369d95-789a-443b-9d30-291670c147cf)
+  )
+  (wire (pts (xy 335.28 71.755) (xy 332.105 71.755))
+    (stroke (width 0) (type default))
+    (uuid b1a717f1-1b07-4d87-becf-51a6d399ea31)
+  )
   (wire (pts (xy 90.17 174.625) (xy 89.535 174.625))
     (stroke (width 0) (type default))
     (uuid b2a9bfd9-9fa3-4375-8c56-d14604345884)
+  )
+  (wire (pts (xy 295.91 101.6) (xy 296.545 101.6))
+    (stroke (width 0) (type default))
+    (uuid b2c60a0a-d609-43b2-b29a-7f2467b7a5ef)
   )
   (wire (pts (xy 190.5 133.35) (xy 190.5 135.89))
     (stroke (width 0) (type default))
@@ -1265,6 +1525,18 @@
     (stroke (width 0) (type default))
     (uuid be76e81f-c092-45db-b667-10113dc26081)
   )
+  (wire (pts (xy 309.88 31.75) (xy 322.58 31.75))
+    (stroke (width 0) (type default))
+    (uuid be7f2d17-4367-45c8-a88b-0dc5f588b5d2)
+  )
+  (wire (pts (xy 285.115 31.75) (xy 285.75 31.75))
+    (stroke (width 0) (type default))
+    (uuid c0ed9c95-1bb3-40f3-a761-46654f3fb56b)
+  )
+  (wire (pts (xy 265.43 60.325) (xy 271.78 60.325))
+    (stroke (width 0) (type default))
+    (uuid c1f11481-211f-48eb-a347-910344891d9f)
+  )
   (wire (pts (xy 203.2 98.425) (xy 190.5 98.425))
     (stroke (width 0) (type default))
     (uuid c27be958-9e1a-49a0-89f7-6fc0afcca802)
@@ -1285,6 +1557,10 @@
     (stroke (width 0) (type default))
     (uuid c47ac56f-98c4-4a03-9802-de124d350152)
   )
+  (wire (pts (xy 309.88 101.6) (xy 309.88 104.14))
+    (stroke (width 0) (type default))
+    (uuid c485c30d-b982-48c1-8590-972cad7ea17b)
+  )
   (wire (pts (xy 82.55 41.275) (xy 82.55 38.735))
     (stroke (width 0) (type default))
     (uuid c518b4eb-91ce-43b4-8ce6-a387f891839e)
@@ -1293,6 +1569,10 @@
     (stroke (width 0) (type default))
     (uuid c8acc08e-70bd-429c-8de3-a61d0424cad5)
   )
+  (wire (pts (xy 285.75 136.525) (xy 285.115 136.525))
+    (stroke (width 0) (type default))
+    (uuid c9d642d8-01f7-4e21-b1ac-2a3b7314e2bd)
+  )
   (wire (pts (xy 69.85 100.965) (xy 69.85 98.425))
     (stroke (width 0) (type default))
     (uuid cc21a7e1-f400-4447-a2d0-9b165ffbaddd)
@@ -1300,6 +1580,10 @@
   (wire (pts (xy 50.8 90.805) (xy 50.8 88.9))
     (stroke (width 0) (type default))
     (uuid cc3a8c6c-993e-4d33-a77b-73d80ae91edb)
+  )
+  (wire (pts (xy 332.105 106.68) (xy 332.105 114.3))
+    (stroke (width 0) (type default))
+    (uuid cc4e9590-faf1-4f24-aef0-701c440e28a3)
   )
   (wire (pts (xy 171.45 20.955) (xy 171.45 19.05))
     (stroke (width 0) (type default))
@@ -1313,6 +1597,14 @@
     (stroke (width 0) (type default))
     (uuid ce45dbd1-2a3c-4093-85f7-b1025d9b804b)
   )
+  (wire (pts (xy 271.78 136.525) (xy 271.78 130.175))
+    (stroke (width 0) (type default))
+    (uuid d0a515d2-b1a0-4f63-a0c5-342787e48bae)
+  )
+  (wire (pts (xy 373.38 104.14) (xy 367.665 104.14))
+    (stroke (width 0) (type default))
+    (uuid d0da41eb-a95f-472a-9a30-55ff7a592d58)
+  )
   (wire (pts (xy 203.2 108.585) (xy 203.2 111.125))
     (stroke (width 0) (type default))
     (uuid d2f93516-4afe-4fbc-ba08-c4409789598a)
@@ -1321,9 +1613,17 @@
     (stroke (width 0) (type default))
     (uuid d3cf39dd-6ce7-49ff-ae6e-5522bc5dd89b)
   )
+  (wire (pts (xy 265.43 95.25) (xy 271.78 95.25))
+    (stroke (width 0) (type default))
+    (uuid d58e9567-3ef2-47ac-b831-6b23251a7e7b)
+  )
   (wire (pts (xy 212.725 68.58) (xy 212.725 76.2))
     (stroke (width 0) (type default))
     (uuid d753a998-3f02-4386-aefc-d62852c6b1f8)
+  )
+  (wire (pts (xy 332.105 36.83) (xy 332.105 44.45))
+    (stroke (width 0) (type default))
+    (uuid d75b6f13-024e-4557-aed6-ab80379352ba)
   )
   (wire (pts (xy 50.8 20.955) (xy 50.8 19.05))
     (stroke (width 0) (type default))
@@ -1349,13 +1649,41 @@
     (stroke (width 0) (type default))
     (uuid e0fce55a-3b00-4f8b-97dd-8027c22877bf)
   )
+  (wire (pts (xy 322.58 69.215) (xy 322.58 66.675))
+    (stroke (width 0) (type default))
+    (uuid e1a150c0-05ad-46b5-b88c-842f1b977227)
+  )
+  (wire (pts (xy 309.88 31.75) (xy 309.88 34.29))
+    (stroke (width 0) (type default))
+    (uuid e24e1577-19b3-43e7-aca3-f3b0e38d2cb8)
+  )
   (wire (pts (xy 190.5 98.425) (xy 190.5 100.965))
     (stroke (width 0) (type default))
     (uuid e25eddbf-7364-424a-a7c0-3af2d7cbe9dd)
   )
+  (wire (pts (xy 271.78 66.675) (xy 277.495 66.675))
+    (stroke (width 0) (type default))
+    (uuid e31d00e3-ffd9-469b-943b-c379abfad071)
+  )
+  (wire (pts (xy 373.38 69.215) (xy 367.665 69.215))
+    (stroke (width 0) (type default))
+    (uuid e3f71a04-472f-4ff7-b311-88038bbda8dc)
+  )
+  (wire (pts (xy 304.165 101.6) (xy 309.88 101.6))
+    (stroke (width 0) (type default))
+    (uuid e467ed64-1149-4826-b9bf-dd0ed759764c)
+  )
   (wire (pts (xy 92.075 103.505) (xy 92.075 111.125))
     (stroke (width 0) (type default))
     (uuid e58b6c05-be76-43e1-a11d-f03d4279fd90)
+  )
+  (wire (pts (xy 335.28 66.675) (xy 322.58 66.675))
+    (stroke (width 0) (type default))
+    (uuid e6f24e70-3743-4f56-8617-900fe9194935)
+  )
+  (wire (pts (xy 277.495 101.6) (xy 271.78 101.6))
+    (stroke (width 0) (type default))
+    (uuid e6fc3b22-24fe-4c9a-92ef-1d3a0f2b7d76)
   )
   (wire (pts (xy 82.55 133.35) (xy 95.25 133.35))
     (stroke (width 0) (type default))
@@ -1369,17 +1697,33 @@
     (stroke (width 0) (type default))
     (uuid e7cd368b-edde-4551-bc38-e0146dd27be9)
   )
+  (wire (pts (xy 322.58 136.525) (xy 322.58 139.065))
+    (stroke (width 0) (type default))
+    (uuid e7d31307-bf37-4859-850d-a9d7d83897c3)
+  )
   (wire (pts (xy 184.785 98.425) (xy 190.5 98.425))
     (stroke (width 0) (type default))
     (uuid ea7be10b-57fd-4e31-85d2-a3dc48c35476)
+  )
+  (wire (pts (xy 354.33 69.215) (xy 350.52 69.215))
+    (stroke (width 0) (type default))
+    (uuid eae56e20-5241-462e-878d-0e3be94a634b)
   )
   (wire (pts (xy 76.2 163.195) (xy 76.2 161.925))
     (stroke (width 0) (type default))
     (uuid ebd79f6b-0399-418e-9850-39b790de596b)
   )
+  (wire (pts (xy 332.105 114.3) (xy 354.33 114.3))
+    (stroke (width 0) (type default))
+    (uuid ecb4941f-0104-4bea-951b-d723e609de6c)
+  )
   (wire (pts (xy 76.2 184.785) (xy 76.2 187.325))
     (stroke (width 0) (type default))
     (uuid ee1eb960-433c-40ee-8096-4d5f2c8b3878)
+  )
+  (wire (pts (xy 354.33 139.065) (xy 354.33 149.86))
+    (stroke (width 0) (type default))
+    (uuid ee7b51fc-7cb6-490e-b3fd-acc63d821270)
   )
   (wire (pts (xy 95.25 28.575) (xy 82.55 28.575))
     (stroke (width 0) (type default))
@@ -1388,6 +1732,10 @@
   (wire (pts (xy 120.015 135.89) (xy 114.3 135.89))
     (stroke (width 0) (type default))
     (uuid ef836d1e-e0c6-439c-a7c1-1af4645bd89c)
+  )
+  (wire (pts (xy 354.33 114.3) (xy 354.33 104.14))
+    (stroke (width 0) (type default))
+    (uuid f1615759-164a-4de3-bb0f-9ddb7869235b)
   )
   (wire (pts (xy 37.465 28.575) (xy 31.75 28.575))
     (stroke (width 0) (type default))
@@ -1400,6 +1748,10 @@
   (wire (pts (xy 69.85 133.35) (xy 64.135 133.35))
     (stroke (width 0) (type default))
     (uuid f421e509-0a2d-41b9-8814-5164a5bd892a)
+  )
+  (wire (pts (xy 290.83 93.98) (xy 290.83 92.075))
+    (stroke (width 0) (type default))
+    (uuid f4f10ac1-5abb-41f0-b2ac-0ad3352e9e06)
   )
   (wire (pts (xy 69.85 38.735) (xy 69.85 41.275))
     (stroke (width 0) (type default))
@@ -1421,6 +1773,10 @@
     (stroke (width 0) (type default))
     (uuid f9a8e287-ef9f-4b61-b2a2-3794ec0e3cdd)
   )
+  (wire (pts (xy 322.58 66.675) (xy 309.88 66.675))
+    (stroke (width 0) (type default))
+    (uuid f9f4077a-9ba8-47d3-812a-26d74f7df56d)
+  )
   (wire (pts (xy 254 100.965) (xy 248.285 100.965))
     (stroke (width 0) (type default))
     (uuid fa231c88-23aa-4134-8cdb-db781ea24b9c)
@@ -1437,82 +1793,122 @@
     (stroke (width 0) (type default))
     (uuid fb16a3cf-780f-4b25-802c-43cce17a4275)
   )
+  (wire (pts (xy 354.33 139.065) (xy 360.045 139.065))
+    (stroke (width 0) (type default))
+    (uuid fca157f8-eb0f-4038-a280-acbe90ecdb7b)
+  )
   (wire (pts (xy 69.85 76.2) (xy 69.85 73.66))
     (stroke (width 0) (type default))
     (uuid fd26b1bd-c94c-4103-89e8-d4857720d787)
+  )
+  (wire (pts (xy 309.88 136.525) (xy 304.165 136.525))
+    (stroke (width 0) (type default))
+    (uuid fe4c52f9-7a6c-466f-bb4c-737ff8840608)
   )
   (wire (pts (xy 45.085 63.5) (xy 45.72 63.5))
     (stroke (width 0) (type default))
     (uuid ff921d13-4e61-45ca-9578-213679bdef1d)
   )
 
-  (hierarchical_label "BRAKE_PRESSURE_2_SIGNAL" (shape input) (at 146.05 127 180)
+  (hierarchical_label "ANALOG_SIGNAL_8" (shape input) (at 146.05 127 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0014537e-cca1-43b5-a3ab-94a48d36a740)
   )
-  (hierarchical_label "BPPS2" (shape output) (at 133.35 100.965 0)
+  (hierarchical_label "ANALOG_3" (shape output) (at 133.35 100.965 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 06396315-f94b-4888-b64c-bcfd8613919b)
   )
-  (hierarchical_label "BPPS2_SIGNAL" (shape input) (at 31.75 98.425 180)
+  (hierarchical_label "ANALOG_12" (shape output) (at 373.38 139.065 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 1993fde5-8524-4c00-bf34-cdc395bccd47)
+  )
+  (hierarchical_label "ANALOG_SIGNAL_3" (shape input) (at 31.75 98.425 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1af63ebf-cedf-4622-9312-b7bcebd821d7)
   )
-  (hierarchical_label "BRAKE_PRESSURE_1_SIGNAL" (shape input) (at 146.05 92.075 180)
+  (hierarchical_label "ANALOG_9" (shape output) (at 373.38 34.29 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 1b46036e-7ca1-4e7e-89a3-097169711315)
+  )
+  (hierarchical_label "ANALOG_SIGNAL_7" (shape input) (at 146.05 92.075 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 2ee4d058-0282-45b9-bcf7-1d95eb8b8a89)
   )
-  (hierarchical_label "APPS1" (shape output) (at 133.35 66.04 0)
+  (hierarchical_label "ANALOG_2" (shape output) (at 133.35 66.04 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 344f6e54-def5-4802-9a51-5353df5acc41)
   )
-  (hierarchical_label "BRAKE_PRESSURE_1" (shape output) (at 254 100.965 0)
+  (hierarchical_label "ANALOG_7" (shape output) (at 254 100.965 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 40b31649-8fe2-439e-9915-a1c42c7303f0)
   )
-  (hierarchical_label "STEERING_ANGLE_2" (shape output) (at 254 66.04 0)
+  (hierarchical_label "ANALOG_6" (shape output) (at 254 66.04 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 41a1f5be-91cc-4806-9855-d1a0d3561b00)
   )
-  (hierarchical_label "PCB_TEMPERATURE" (shape output) (at 152.4 177.165 0)
+  (hierarchical_label "ANALOG_11" (shape output) (at 373.38 104.14 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 5f88ca8a-ada6-45c3-9a8b-62ea45bd9843)
+  )
+  (hierarchical_label "ANALOG_10" (shape output) (at 373.38 69.215 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 6c6eab4c-8e6b-40fd-aa99-f88aa7f295a3)
+  )
+  (hierarchical_label "PCB_TEMPERATURE" (shape output) (at 152.4 177.165 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 76503b90-7db6-4a6c-8959-174ca91a5684)
   )
-  (hierarchical_label "STEERING_ANGLE_1_SIGNAL" (shape input) (at 146.05 22.225 180)
+  (hierarchical_label "ANALOG_SIGNAL_10" (shape input) (at 265.43 60.325 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 7c469e43-3ee9-420f-b7e2-36c9e2abd43a)
+  )
+  (hierarchical_label "ANALOG_SIGNAL_5" (shape input) (at 146.05 22.225 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 8c4a581d-fa7d-4783-8e08-28be603a8c86)
   )
-  (hierarchical_label "BRAKE_PRESSURE_2" (shape output) (at 254 135.89 0)
+  (hierarchical_label "ANALOG_SIGNAL_11" (shape input) (at 265.43 95.25 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 8ddc74eb-a2d8-408e-b9f2-baa7187054ee)
+  )
+  (hierarchical_label "ANALOG_8" (shape output) (at 254 135.89 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 9ef1b1a7-bcb8-4e71-92e6-29c831a2433b)
   )
-  (hierarchical_label "APPS2_SIGNAL" (shape input) (at 31.75 28.575 180)
+  (hierarchical_label "ANALOG_SIGNAL_1" (shape input) (at 31.75 28.575 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a2f20210-2086-48d6-b9dc-7a02b83b136a)
   )
-  (hierarchical_label "STEERING_ANGLE_2_SIGNAL" (shape input) (at 146.05 57.15 180)
+  (hierarchical_label "ANALOG_SIGNAL_6" (shape input) (at 146.05 57.15 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a9063f21-3ced-4af3-82f0-01f0133cf7c9)
   )
-  (hierarchical_label "STEERING_ANGLE_1" (shape output) (at 254 31.115 0)
+  (hierarchical_label "ANALOG_5" (shape output) (at 254 31.115 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c24c154b-6e6e-4854-9413-18c7b9a5d879)
   )
-  (hierarchical_label "APPS2" (shape output) (at 133.35 31.115 0)
+  (hierarchical_label "ANALOG_1" (shape output) (at 133.35 31.115 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid d883e1f1-90e7-48be-b347-8264b7610f0f)
   )
-  (hierarchical_label "APPS1_SIGNAL" (shape input) (at 31.75 63.5 180)
+  (hierarchical_label "ANALOG_SIGNAL_2" (shape input) (at 31.75 63.5 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid d88e4f97-406c-4fba-90aa-e0b4e56a875f)
   )
-  (hierarchical_label "BPPS1" (shape output) (at 133.35 135.89 0)
+  (hierarchical_label "ANALOG_4" (shape output) (at 133.35 135.89 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid dc917b99-9325-4733-b936-2f3398716028)
   )
-  (hierarchical_label "BPPS1_SIGNAL" (shape input) (at 31.75 133.35 180)
+  (hierarchical_label "ANALOG_SIGNAL_4" (shape input) (at 31.75 133.35 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e3f45f32-32be-4fb8-b183-451d9595647e)
+  )
+  (hierarchical_label "ANALOG_SIGNAL_9" (shape input) (at 265.43 25.4 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid f07ce911-1e09-46b0-851b-a6409c0e03e7)
+  )
+  (hierarchical_label "ANALOG_SIGNAL_12" (shape input) (at 265.43 130.175 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid f2e68969-4523-4773-b548-ed6675c1fe18)
   )
 
   (symbol (lib_id "Device:R") (at 41.275 28.575 270) (unit 1)
@@ -1533,6 +1929,11 @@
     (pin "1" (uuid 087b41e9-f958-46e5-a838-3326bfd82793))
     (pin "2" (uuid 06ab8dc7-17e7-4d2d-84bd-50f0efc39bae))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R19") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R19") (unit 1)
@@ -1557,6 +1958,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0863a6e9-59e4-4e50-a7d4-3beb3f9259fe))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR060") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:+5V") (at 50.8 19.05 0) (unit 1)
@@ -1575,6 +1983,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0c53a522-fea6-4548-9cf1-c5f6bb4737c1))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR059") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:R") (at 60.325 28.575 270) (unit 1)
@@ -1595,6 +2010,11 @@
     (pin "1" (uuid 6c15dcb6-5855-46fd-9dd0-423c8c74d624))
     (pin "2" (uuid 57ca3eb9-b10e-439e-968c-d4d3e97063c8))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R23") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R23") (unit 1)
@@ -1621,6 +2041,11 @@
     (pin "1" (uuid fa5a2878-e803-4b34-aee4-9569e667e7eb))
     (pin "2" (uuid 83f82d52-fcfb-4014-9d9b-b6590e41a5d5))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "C11") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "C11") (unit 1)
@@ -1647,6 +2072,11 @@
     (pin "1" (uuid 8b612d12-ab2f-46f3-a0b7-624de6ba8020))
     (pin "2" (uuid 7d8199a6-37bd-4ed6-8d3e-ea648c8ed98c))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R27") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R27") (unit 1)
@@ -1679,6 +2109,11 @@
     (pin "4" (uuid 31dd21e3-6058-45b6-8384-a7a5a02568ea))
     (pin "8" (uuid e047c735-b112-456e-a034-fd0dc109fc2a))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "U5") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "U5") (unit 1)
@@ -1711,6 +2146,11 @@
     (pin "4" (uuid e40b2ee2-565d-405a-bd95-56bc0c2fee69))
     (pin "8" (uuid d247e293-d35f-4a65-878d-cbd4faf7f1cc))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "U5") (unit 2)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "U5") (unit 2)
@@ -1737,6 +2177,11 @@
     (pin "1" (uuid d8efa503-6c73-4a0c-9586-adf1a6fcf4d6))
     (pin "2" (uuid 9088ca3b-1faa-4a68-8d68-7316d370ac99))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R20") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R20") (unit 1)
@@ -1761,6 +2206,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7761a612-c34e-4061-9588-56ba839f9669))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR062") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:+5V") (at 50.8 53.975 0) (unit 1)
@@ -1779,6 +2231,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f2a257cf-6b82-47da-b5a4-735382f1de3e))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR061") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:R") (at 60.325 63.5 270) (unit 1)
@@ -1799,6 +2258,11 @@
     (pin "1" (uuid a44137f6-9be7-4a13-b5df-94facd922ade))
     (pin "2" (uuid 95fe7b86-bfd6-4ecd-b2a3-22b6d75f6b6e))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R24") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R24") (unit 1)
@@ -1825,6 +2289,11 @@
     (pin "1" (uuid 1bd26b41-573d-4233-a372-18f24b133694))
     (pin "2" (uuid 9d4c448c-7c04-478b-a72c-483d1815ae10))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "C12") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "C12") (unit 1)
@@ -1851,6 +2320,11 @@
     (pin "1" (uuid d3aa6e29-492a-49d2-9b45-44d8d663f8e1))
     (pin "2" (uuid fc8eaf5f-503c-40c2-9888-b3dd143b6819))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R28") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R28") (unit 1)
@@ -1877,6 +2351,11 @@
     (pin "1" (uuid d72e7486-8a5a-44c2-b389-fe850c250e47))
     (pin "2" (uuid 61b4a2a9-9d5b-426f-82aa-ec65541f019d))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R31") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R31") (unit 1)
@@ -1903,6 +2382,11 @@
     (pin "1" (uuid 257050b3-122b-48b7-bc28-457ece9b4682))
     (pin "2" (uuid 425bf8b1-eb45-41fc-b0fa-85d44645c186))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R32") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R32") (unit 1)
@@ -1929,6 +2413,11 @@
     (pin "1" (uuid 9a9f402e-daa2-4ec5-b109-484595a5b5c2))
     (pin "2" (uuid b9c1314a-9d14-45d0-adbf-77201fdce594))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R21") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R21") (unit 1)
@@ -1953,6 +2442,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ce35fa47-8b60-4202-9154-3c9b92d71e75))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR064") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:+5V") (at 50.8 88.9 0) (unit 1)
@@ -1971,6 +2467,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 54b05546-560d-481b-b1e4-9ffdbc611ce3))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR063") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:R") (at 60.325 98.425 270) (unit 1)
@@ -1991,6 +2494,11 @@
     (pin "1" (uuid 54e3ba9b-2c86-4872-a37e-6e778c23ab35))
     (pin "2" (uuid cd4d2d31-c795-47fa-be54-ce3644ccc7ef))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R25") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R25") (unit 1)
@@ -2017,6 +2525,11 @@
     (pin "1" (uuid c9358803-9603-41d6-8edd-f975794ae251))
     (pin "2" (uuid aaefe4d3-61fc-435a-8aa0-ba1fa9ac2dfb))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "C13") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "C13") (unit 1)
@@ -2043,6 +2556,11 @@
     (pin "1" (uuid a8344c4c-6856-4da8-9bf2-2364844af2ec))
     (pin "2" (uuid 996596b2-3637-4f81-972e-59cdfb30871e))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R29") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R29") (unit 1)
@@ -2075,6 +2593,11 @@
     (pin "4" (uuid 0f5f4e3b-4e24-41eb-abd5-db0f51bc4b91))
     (pin "8" (uuid b43afa2e-3cae-4f68-9a41-b02a4a772bc5))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "U6") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "U6") (unit 1)
@@ -2107,6 +2630,11 @@
     (pin "4" (uuid fdcd2fd0-0f4f-43b0-b00a-ef2e0fbdac67))
     (pin "8" (uuid b12324e1-2b41-478d-a63f-1f98096dac86))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "U6") (unit 2)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "U6") (unit 2)
@@ -2139,6 +2667,11 @@
     (pin "4" (uuid b1a44df6-3c8e-45f7-bdeb-6d2f3ae549a2))
     (pin "8" (uuid 728d6d94-7020-4a36-94ad-1df902589d88))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "U5") (unit 3)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "U5") (unit 3)
@@ -2165,6 +2698,11 @@
     (pin "1" (uuid 1b0b6ce5-4000-46db-b901-7acedf85f1e3))
     (pin "2" (uuid 026b3031-6c38-4c73-b6c6-34139b5ed8ec))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R22") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R22") (unit 1)
@@ -2189,6 +2727,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 78abaa78-a098-48a9-a132-5b18fc2b831e))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR066") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:+5V") (at 50.8 123.825 0) (unit 1)
@@ -2207,6 +2752,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a27ffbce-84ff-4e5b-9037-a4ea501476bc))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR065") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:R") (at 60.325 133.35 270) (unit 1)
@@ -2227,6 +2779,11 @@
     (pin "1" (uuid 81849fdd-d0ae-4d37-9c9c-7c2fc7192810))
     (pin "2" (uuid 3724a7a4-675d-4ba4-986e-2ea9187cff7a))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R26") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R26") (unit 1)
@@ -2253,6 +2810,11 @@
     (pin "1" (uuid 0d284e9a-8306-4495-a8ae-a4f48eb322de))
     (pin "2" (uuid 939e2a2c-8f37-4967-9232-fdbe10810911))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "C14") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "C14") (unit 1)
@@ -2279,6 +2841,11 @@
     (pin "1" (uuid 0d326fea-a93e-404c-a7e4-9507213d6205))
     (pin "2" (uuid a04a0cb8-803f-475c-b150-ecfb265f6346))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R30") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R30") (unit 1)
@@ -2305,6 +2872,11 @@
     (pin "1" (uuid cc11dc06-27df-46e8-bd80-37eae553ba53))
     (pin "2" (uuid 263c7eee-4cca-425b-afeb-8df1ba1d72e8))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R33") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R33") (unit 1)
@@ -2331,6 +2903,11 @@
     (pin "1" (uuid ff51cc47-8f5b-449d-9be2-4e9fad455384))
     (pin "2" (uuid d0995eb2-ed6e-4178-9389-8c322f681a9a))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R34") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R34") (unit 1)
@@ -2363,6 +2940,11 @@
     (pin "4" (uuid 2b4a10af-f8f7-49de-815b-dc24edc21c55))
     (pin "8" (uuid 400c75aa-40d2-4706-976c-5404c6c94f6a))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "U6") (unit 3)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "U6") (unit 3)
@@ -2387,6 +2969,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6a807d20-f8e4-4d82-b7d1-29349e484af3))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR071") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:+5V") (at 34.925 168.275 0) (unit 1)
@@ -2405,6 +2994,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 07130195-6321-4d44-b394-1d53abc7bfac))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR073") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 22.225 187.325 0) (unit 1)
@@ -2423,6 +3019,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c7433825-1975-4e1d-8ad1-9710f7ca8910))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR072") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 34.925 187.325 0) (unit 1)
@@ -2441,6 +3044,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 56911022-a04c-44e3-8bbe-e5cbe3935a7f))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR074") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "KTHFS:D_Schottky_x2_Serial_AKC") (at 50.8 28.575 0) (unit 1)
@@ -2460,9 +3070,14 @@
     )
     (pin "1" (uuid 88c040b6-35dc-41f9-aff2-4c25b988e510))
     (pin "2" (uuid fc0e4c74-5bd8-4084-b445-d8fbc6f2fd5d))
-    (pin "3" (uuid 8dba01e9-5fa4-44ad-8951-0da6adb4fe7d))
+    (pin "3" (uuid 86981af3-b4ab-4f5f-b859-2b3f155822f8))
     (pin "3" (uuid 86981af3-b4ab-4f5f-b859-2b3f155822f8))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "D25") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D25") (unit 1)
@@ -2488,9 +3103,14 @@
     )
     (pin "1" (uuid 0ffebe33-b4e6-4536-99da-6857538d813e))
     (pin "2" (uuid e2670a08-ea3f-465c-8f68-94af441d12ec))
-    (pin "3" (uuid 1b6ce644-4bfb-4c63-a39b-6f9cbeecbc50))
+    (pin "3" (uuid 4b8a94cd-3682-4994-9961-43de1d1e1579))
     (pin "3" (uuid 4b8a94cd-3682-4994-9961-43de1d1e1579))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "D26") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D26") (unit 1)
@@ -2516,9 +3136,14 @@
     )
     (pin "1" (uuid 895286d6-507c-49d1-829d-ffa49f8bf332))
     (pin "2" (uuid 11d3dd71-c6d3-4ee4-9bab-bc077cd16d14))
-    (pin "3" (uuid e3568117-926f-48ab-9706-93aed48fbb71))
+    (pin "3" (uuid f322694a-2169-4a78-8b8a-1fcdcda3dbd4))
     (pin "3" (uuid f322694a-2169-4a78-8b8a-1fcdcda3dbd4))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "D27") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D27") (unit 1)
@@ -2544,9 +3169,14 @@
     )
     (pin "1" (uuid d1b39927-1590-4286-ab7d-a051dd7e2bf2))
     (pin "2" (uuid 6e48a8c0-ec35-4c54-b236-f5866919476d))
-    (pin "3" (uuid c66ae2c3-8550-4f7e-bf29-989d3804fa97))
+    (pin "3" (uuid 2ec03b89-af50-4cad-bcf8-7419e804a39d))
     (pin "3" (uuid 2ec03b89-af50-4cad-bcf8-7419e804a39d))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "D28") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D28") (unit 1)
@@ -2571,6 +3201,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fd540f56-ad9e-4bc7-8fcb-5a137e2887e7))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0141") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 82.55 41.275 0) (unit 1)
@@ -2589,6 +3226,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2a155c55-1fd2-41ad-bb11-28e63976e61d))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0140") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 50.8 76.2 0) (unit 1)
@@ -2607,6 +3251,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6e9fcd7f-c91e-42db-bf1b-a39d1bcec02f))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0109") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 82.55 76.2 0) (unit 1)
@@ -2625,6 +3276,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b4494c94-e5db-4390-ab59-d7c0b94a7531))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0110") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 69.85 111.125 0) (unit 1)
@@ -2643,6 +3301,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fb0981e7-ee14-4d6e-9fa5-c5f22d69b41a))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0138") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 82.55 111.125 0) (unit 1)
@@ -2661,6 +3326,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 21a8c4e9-0481-4430-aee1-02b34b9bd5fb))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0137") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 69.85 146.05 0) (unit 1)
@@ -2679,6 +3351,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 23909961-06e5-4532-ae88-a5889a1c1510))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0111") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 82.55 146.05 0) (unit 1)
@@ -2697,6 +3376,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3ff29381-caf0-4857-9ceb-5ecb781e7054))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0112") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Amplifier_Operational:LM358") (at 223.52 66.04 0) (unit 2)
@@ -2723,6 +3409,11 @@
     (pin "4" (uuid 30015409-ca23-4f18-871b-9ed98681bfbd))
     (pin "8" (uuid 63ec6ba7-489c-4c6a-8c94-23540a1b7f07))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "U1") (unit 2)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "U1") (unit 2)
@@ -2748,9 +3439,14 @@
     )
     (pin "1" (uuid 0e5c4b10-932d-47dd-9f81-06b00c4f3537))
     (pin "2" (uuid b49e9260-6925-452c-b966-80b459d711ea))
-    (pin "3" (uuid b8ab0d16-d980-4200-9bc0-dd2820c3e78e))
+    (pin "3" (uuid 03b7c3ce-482f-4703-aabc-3aa4e8630aeb))
     (pin "3" (uuid 03b7c3ce-482f-4703-aabc-3aa4e8630aeb))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "D17") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D17") (unit 1)
@@ -2776,9 +3472,14 @@
     )
     (pin "1" (uuid d75b9f35-15fb-4ee1-8dda-eadeaf4b390e))
     (pin "2" (uuid 02b56de5-47f0-43de-9a92-27070bbd2569))
-    (pin "3" (uuid bb6fe493-927f-4066-aea5-1e25618a5374))
+    (pin "3" (uuid ea784a44-6e8f-4c1e-b858-71800f4587ff))
     (pin "3" (uuid ea784a44-6e8f-4c1e-b858-71800f4587ff))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "D18") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D18") (unit 1)
@@ -2790,7 +3491,7 @@
   (symbol (lib_id "Device:C") (at 190.5 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063948c55)
-    (property "Reference" "C?" (at 193.675 69.215 0)
+    (property "Reference" "C1" (at 193.675 69.215 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22n" (at 193.675 71.12 0)
@@ -2805,6 +3506,11 @@
     (pin "1" (uuid 4aa534ae-98fe-431f-8787-3ff4b89b6543))
     (pin "2" (uuid e1d07fcb-5983-4c48-8704-1b1dc47a428b))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "C1") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "C1") (unit 1)
@@ -2816,7 +3522,7 @@
   (symbol (lib_id "power:+5V") (at 47.625 168.275 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063948c5e)
-    (property "Reference" "#PWR?" (at 47.625 172.085 0)
+    (property "Reference" "#PWR0116" (at 47.625 172.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 47.625 164.465 0)
@@ -2830,6 +3536,11 @@
     )
     (pin "1" (uuid 312eb706-8921-44bd-92c5-6cb9028508fd))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0116") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "#PWR0116") (unit 1)
@@ -2841,7 +3552,7 @@
   (symbol (lib_id "Device:R") (at 244.475 66.04 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063948c6a)
-    (property "Reference" "R?" (at 244.475 61.595 90)
+    (property "Reference" "R7" (at 244.475 61.595 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 244.475 63.5 90)
@@ -2856,6 +3567,11 @@
     (pin "1" (uuid 6db4f599-9e63-4d4b-8577-859e7504792c))
     (pin "2" (uuid 4012a806-2b3c-4f25-be2a-dfe21f731bc8))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R7") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R7") (unit 1)
@@ -2867,7 +3583,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 223.52 31.115 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063948c70)
-    (property "Reference" "U?" (at 223.52 23.495 0)
+    (property "Reference" "U1" (at 223.52 23.495 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM358" (at 223.52 25.4 0)
@@ -2888,6 +3604,11 @@
     (pin "4" (uuid 6e34fe3c-966b-4ba7-aa36-1f4916309a00))
     (pin "8" (uuid a3d8d102-8a1b-460a-9cca-b0910f45d379))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "U1") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "U1") (unit 1)
@@ -2899,7 +3620,7 @@
   (symbol (lib_id "Device:R") (at 203.2 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063948c76)
-    (property "Reference" "R?" (at 205.105 69.215 0)
+    (property "Reference" "R5" (at 205.105 69.215 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "510" (at 205.105 71.12 0)
@@ -2914,6 +3635,11 @@
     (pin "1" (uuid 8e8819eb-1d4d-4292-89c1-f35e01746760))
     (pin "2" (uuid e0bce63c-f766-4dbb-a97a-dfc3d89b2e14))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R5") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R5") (unit 1)
@@ -2925,7 +3651,7 @@
   (symbol (lib_id "Device:R") (at 180.975 63.5 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063948c83)
-    (property "Reference" "R?" (at 180.975 59.055 90)
+    (property "Reference" "R3" (at 180.975 59.055 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200" (at 180.975 60.96 90)
@@ -2940,6 +3666,11 @@
     (pin "1" (uuid fbd46691-d830-4d2d-b185-5a38f9fe7edd))
     (pin "2" (uuid 2b5841cb-3955-43b0-ae0b-43d0aa687ba4))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R3") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R3") (unit 1)
@@ -2951,7 +3682,7 @@
   (symbol (lib_id "Device:R") (at 161.925 63.5 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063948c95)
-    (property "Reference" "R?" (at 161.925 59.055 90)
+    (property "Reference" "R1" (at 161.925 59.055 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200" (at 161.925 60.96 90)
@@ -2966,6 +3697,11 @@
     (pin "1" (uuid 84c559cb-ee0f-4e4d-abaa-e498a03b33b2))
     (pin "2" (uuid abb18970-ed69-46c3-b63d-ed97e08f10b6))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R1") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R1") (unit 1)
@@ -2977,7 +3713,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 50.165 177.8 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063948c9b)
-    (property "Reference" "U?" (at 48.895 176.53 0)
+    (property "Reference" "U4" (at 48.895 176.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LM358" (at 48.895 178.435 0)
@@ -2998,6 +3734,11 @@
     (pin "4" (uuid e0322fff-4dca-4731-96f8-3d30bac39486))
     (pin "8" (uuid 0b8389c8-2ec6-431a-b4c4-02b62c3b7f47))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "U4") (unit 3)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "U4") (unit 3)
@@ -3009,7 +3750,7 @@
   (symbol (lib_id "Device:C") (at 190.5 34.925 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063948ca1)
-    (property "Reference" "C?" (at 193.675 34.29 0)
+    (property "Reference" "C2" (at 193.675 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22n" (at 193.675 36.195 0)
@@ -3024,6 +3765,11 @@
     (pin "1" (uuid a393ee4d-741c-4d41-8390-1d86b5ab7993))
     (pin "2" (uuid 8e83d55a-cb4a-4a58-b436-39362c7c94c5))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "C2") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "C2") (unit 1)
@@ -3035,7 +3781,7 @@
   (symbol (lib_id "Device:R") (at 244.475 31.115 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063948ca7)
-    (property "Reference" "R?" (at 244.475 26.67 90)
+    (property "Reference" "R8" (at 244.475 26.67 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 244.475 28.575 90)
@@ -3050,6 +3796,11 @@
     (pin "1" (uuid 9dadcd44-4b05-40d2-a096-3edd3753b42d))
     (pin "2" (uuid c3fa2fb9-1428-4243-8695-ce20257c0cf1))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R8") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R8") (unit 1)
@@ -3061,7 +3812,7 @@
   (symbol (lib_id "Device:R") (at 203.2 34.925 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063948cad)
-    (property "Reference" "R?" (at 205.105 34.29 0)
+    (property "Reference" "R6" (at 205.105 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "510" (at 205.105 36.195 0)
@@ -3076,6 +3827,11 @@
     (pin "1" (uuid f44503bb-fb2f-49ba-b382-0968aee9f533))
     (pin "2" (uuid 9587995b-167e-4292-b832-7eb19c0922d6))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R6") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R6") (unit 1)
@@ -3087,7 +3843,7 @@
   (symbol (lib_id "Device:R") (at 180.975 28.575 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063948cba)
-    (property "Reference" "R?" (at 180.975 24.13 90)
+    (property "Reference" "R4" (at 180.975 24.13 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200" (at 180.975 26.035 90)
@@ -3102,6 +3858,11 @@
     (pin "1" (uuid df5679e6-0115-4ea8-bd2c-223551a592c5))
     (pin "2" (uuid 3e4702f8-5dd3-479f-9dc8-8227d48beade))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R4") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R4") (unit 1)
@@ -3113,7 +3874,7 @@
   (symbol (lib_id "Device:R") (at 161.925 28.575 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063948ccc)
-    (property "Reference" "R?" (at 161.925 24.13 90)
+    (property "Reference" "R2" (at 161.925 24.13 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200" (at 161.925 26.035 90)
@@ -3128,6 +3889,11 @@
     (pin "1" (uuid c0b12f25-62fa-4439-b531-f515d4b6d09d))
     (pin "2" (uuid ff8c3394-b28a-49ff-9d28-687bebca856e))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R2") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R2") (unit 1)
@@ -3152,6 +3918,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d46d11ee-3cff-4e8a-a3cc-99b0f5b1ea26))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0113") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 190.5 76.2 0) (unit 1)
@@ -3170,6 +3943,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 00e4b811-0728-4455-9b41-9ee47f56778d))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0114") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 203.2 76.2 0) (unit 1)
@@ -3188,6 +3968,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7304abfa-f8da-4701-ab3c-fe6ac96b16b0))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0115") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:+5V") (at 171.45 53.975 0) (unit 1)
@@ -3206,6 +3993,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6bfc5b49-31e5-4ac6-94fa-84409ab99be0))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0142") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 47.625 187.325 0) (unit 1)
@@ -3224,6 +4018,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a5804801-be4f-43f4-89ae-4fb92bcca7b1))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0117") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 190.5 41.275 0) (unit 1)
@@ -3242,6 +4043,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8b6200e5-8f3c-4168-8e24-b21d271a7d1d))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0118") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 203.2 41.275 0) (unit 1)
@@ -3260,6 +4068,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 911e96e9-da21-4f3e-9396-10ca6b633e90))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0119") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 171.45 41.275 0) (unit 1)
@@ -3278,6 +4093,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 69b2c676-689b-42b3-b851-19a71f401eef))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0120") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:+5V") (at 171.45 19.05 0) (unit 1)
@@ -3296,12 +4118,19 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 751f912d-6812-4fba-8803-1da046e119a8))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0121") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:R") (at 180.975 98.425 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a65385)
-    (property "Reference" "R?" (at 180.975 93.98 90)
+    (property "Reference" "R14" (at 180.975 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200" (at 180.975 95.885 90)
@@ -3316,6 +4145,11 @@
     (pin "1" (uuid c60798cf-aab6-4159-8a3a-6a1b8ffba438))
     (pin "2" (uuid 08bf914e-5338-4990-b1bd-e365ae011bba))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R14") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R14") (unit 1)
@@ -3327,7 +4161,7 @@
   (symbol (lib_id "Device:R") (at 203.2 104.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a65392)
-    (property "Reference" "R?" (at 205.105 104.14 0)
+    (property "Reference" "R16" (at 205.105 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "510" (at 205.105 106.045 0)
@@ -3342,6 +4176,11 @@
     (pin "1" (uuid 665d7001-c191-4a6f-bc6b-e27d3e2fc42a))
     (pin "2" (uuid 30004044-367b-433a-b6a6-d995e2bcafca))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R16") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R16") (unit 1)
@@ -3353,7 +4192,7 @@
   (symbol (lib_id "Device:R") (at 244.475 100.965 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a653a4)
-    (property "Reference" "R?" (at 244.475 96.52 90)
+    (property "Reference" "R18" (at 244.475 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 244.475 98.425 90)
@@ -3368,6 +4207,11 @@
     (pin "1" (uuid 94c63bfd-5692-480c-ac76-b8ae32545ba2))
     (pin "2" (uuid 50c5954c-3d9f-448e-bb3c-42b0ac4f8599))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R18") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R18") (unit 1)
@@ -3379,7 +4223,7 @@
   (symbol (lib_id "Device:C") (at 190.5 104.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a653ab)
-    (property "Reference" "C?" (at 193.675 104.14 0)
+    (property "Reference" "C10" (at 193.675 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22n" (at 193.675 106.045 0)
@@ -3394,6 +4238,11 @@
     (pin "1" (uuid c6e2d827-79ed-4d4b-8476-29a6cadc3760))
     (pin "2" (uuid 5c7219d5-f275-4da5-a95d-988761eddfda))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "C10") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "C10") (unit 1)
@@ -3405,7 +4254,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 62.865 177.8 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a653b1)
-    (property "Reference" "U?" (at 61.595 176.53 0)
+    (property "Reference" "U1" (at 61.595 176.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LM358" (at 61.595 178.435 0)
@@ -3426,6 +4275,11 @@
     (pin "4" (uuid ac62494c-14ae-4969-80b0-f4f26b9b2cde))
     (pin "8" (uuid b63d0d19-421d-4b9b-91a8-446396e1328f))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "U1") (unit 3)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "U1") (unit 3)
@@ -3437,7 +4291,7 @@
   (symbol (lib_id "power:+5V") (at 60.325 168.275 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a653b8)
-    (property "Reference" "#PWR?" (at 60.325 172.085 0)
+    (property "Reference" "#PWR0122" (at 60.325 172.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 60.325 164.465 0)
@@ -3451,6 +4305,11 @@
     )
     (pin "1" (uuid e0a56f8f-446d-4ac7-b906-f9505d2cfc50))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0122") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "#PWR0122") (unit 1)
@@ -3462,7 +4321,7 @@
   (symbol (lib_id "power:GND") (at 60.325 187.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a653be)
-    (property "Reference" "#PWR?" (at 60.325 193.675 0)
+    (property "Reference" "#PWR0123" (at 60.325 193.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.452 191.7192 0)
@@ -3476,6 +4335,11 @@
     )
     (pin "1" (uuid 084b22f4-8bbe-49ce-a632-fbbd3a3b805b))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0123") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "#PWR0123") (unit 1)
@@ -3508,6 +4372,11 @@
     (pin "4" (uuid de5fa69b-a85c-4258-a39e-187b72fb308b))
     (pin "8" (uuid 0ecd5030-ab1d-4c51-80cf-b5b3877101e5))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "U4") (unit 2)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "U4") (unit 2)
@@ -3519,7 +4388,7 @@
   (symbol (lib_id "Device:R") (at 161.925 98.425 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a653cb)
-    (property "Reference" "R?" (at 161.925 93.98 90)
+    (property "Reference" "R12" (at 161.925 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200" (at 161.925 95.885 90)
@@ -3534,6 +4403,11 @@
     (pin "1" (uuid 4934d1d3-f20a-461b-9a27-acb693fb7c47))
     (pin "2" (uuid d696e56c-d27e-487a-86dc-c0ae059ab9b9))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R12") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R12") (unit 1)
@@ -3559,9 +4433,14 @@
     )
     (pin "1" (uuid e734b0c2-7ae8-423b-95d3-2ab4832ad9b0))
     (pin "2" (uuid e0b812ac-bd33-404d-9d09-209c8176e12b))
-    (pin "3" (uuid a63bdd03-b70e-45c5-a35f-f711149df66b))
+    (pin "3" (uuid c69d88f7-7dcb-4052-b5ce-9cd53ae6c2e6))
     (pin "3" (uuid c69d88f7-7dcb-4052-b5ce-9cd53ae6c2e6))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "D24") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D24") (unit 1)
@@ -3587,9 +4466,14 @@
     )
     (pin "1" (uuid 67268291-06f1-43bc-b72f-0ca489a1e146))
     (pin "2" (uuid 3b9f7e40-7d19-4666-8a28-dec1b2086dbb))
-    (pin "3" (uuid decba837-8c30-4fd4-ad1c-7d658eceb135))
+    (pin "3" (uuid db610d21-5b69-41d7-a697-736e94e1ea02))
     (pin "3" (uuid db610d21-5b69-41d7-a697-736e94e1ea02))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "D23") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D23") (unit 1)
@@ -3601,7 +4485,7 @@
   (symbol (lib_id "Device:C") (at 190.5 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a653e3)
-    (property "Reference" "C?" (at 193.675 139.065 0)
+    (property "Reference" "C9" (at 193.675 139.065 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22n" (at 193.675 140.97 0)
@@ -3616,6 +4500,11 @@
     (pin "1" (uuid 51eaff37-df90-4d35-96f7-a83f9abc84fa))
     (pin "2" (uuid 8d054b73-648f-4a96-b0f9-1d2912ba196f))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "C9") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "C9") (unit 1)
@@ -3627,7 +4516,7 @@
   (symbol (lib_id "Device:R") (at 244.475 135.89 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a653eb)
-    (property "Reference" "R?" (at 244.475 131.445 90)
+    (property "Reference" "R17" (at 244.475 131.445 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 244.475 133.35 90)
@@ -3642,6 +4531,11 @@
     (pin "1" (uuid 12b1f703-d5d1-4499-84a2-f81a56bc5b23))
     (pin "2" (uuid 466aadc7-92ec-4118-acfb-ab2b4d57e5b1))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R17") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R17") (unit 1)
@@ -3653,7 +4547,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 223.52 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a653f8)
-    (property "Reference" "U?" (at 223.52 128.27 0)
+    (property "Reference" "U4" (at 223.52 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM358" (at 223.52 130.175 0)
@@ -3674,6 +4568,11 @@
     (pin "4" (uuid 5cbfbea7-4145-4619-8aec-d1488535c30f))
     (pin "8" (uuid d842c60f-e74e-46ce-b360-2b2b9e248139))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "U4") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "U4") (unit 1)
@@ -3685,7 +4584,7 @@
   (symbol (lib_id "Device:R") (at 203.2 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a65403)
-    (property "Reference" "R?" (at 205.105 139.065 0)
+    (property "Reference" "R15" (at 205.105 139.065 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "510" (at 205.105 140.97 0)
@@ -3700,6 +4599,11 @@
     (pin "1" (uuid 7720143d-7f43-46de-b592-22b496936c38))
     (pin "2" (uuid 7465e9d5-25a9-473c-b88e-37f503fc6a7a))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R15") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R15") (unit 1)
@@ -3711,7 +4615,7 @@
   (symbol (lib_id "Device:R") (at 180.975 133.35 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a65410)
-    (property "Reference" "R?" (at 180.975 128.905 90)
+    (property "Reference" "R13" (at 180.975 128.905 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200" (at 180.975 130.81 90)
@@ -3726,6 +4630,11 @@
     (pin "1" (uuid 078f730b-5679-43df-b0f6-4437b5a6d472))
     (pin "2" (uuid 6e673e0a-c254-4f10-99aa-80152404a13d))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R13") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R13") (unit 1)
@@ -3737,7 +4646,7 @@
   (symbol (lib_id "power:+5V") (at 171.45 123.825 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a65416)
-    (property "Reference" "#PWR?" (at 171.45 127.635 0)
+    (property "Reference" "#PWR0143" (at 171.45 127.635 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 171.45 120.015 0)
@@ -3751,6 +4660,11 @@
     )
     (pin "1" (uuid 84c36a5e-d8b1-408d-ac49-7651d2a76e73))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0143") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "#PWR0143") (unit 1)
@@ -3762,7 +4676,7 @@
   (symbol (lib_id "Device:R") (at 161.925 133.35 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a65422)
-    (property "Reference" "R?" (at 161.925 128.905 90)
+    (property "Reference" "R11" (at 161.925 128.905 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200" (at 161.925 130.81 90)
@@ -3777,6 +4691,11 @@
     (pin "1" (uuid 8f81e190-7688-4358-b9d2-7b2006948bf5))
     (pin "2" (uuid b9c35d91-b5e8-448b-992e-309cd229d71f))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R11") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R11") (unit 1)
@@ -3803,6 +4722,11 @@
     (pin "1" (uuid ad54139d-4931-45da-963b-be64d6b216c0))
     (pin "2" (uuid cd96461b-29a0-4cf5-a8a6-774cb489e238))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "TH1") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "TH1") (unit 1)
@@ -3828,6 +4752,11 @@
     )
     (pin "1" (uuid ba326ea7-488d-420d-9d81-03d80f1ee3f3))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR?") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005ef29697"
           (reference "#PWR?") (unit 1)
@@ -3842,7 +4771,7 @@
   (symbol (lib_id "Device:R") (at 76.2 180.975 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a65434)
-    (property "Reference" "R?" (at 78.105 179.705 0)
+    (property "Reference" "R41" (at 78.105 179.705 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 78.105 181.61 0)
@@ -3857,6 +4786,11 @@
     (pin "1" (uuid 82585ee0-ac70-4a92-bdc8-82228eb7f100))
     (pin "2" (uuid 259900bd-827d-4306-a27c-145eb06eb9b3))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R41") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R41") (unit 1)
@@ -3886,6 +4820,11 @@
     (pin "4" (uuid 567f8c8c-45b0-471a-8df8-c177491dd1d9))
     (pin "5" (uuid fa29bc41-f5ab-4c08-93d1-3553e67fb0ee))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "U8") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "U8") (unit 1)
@@ -3897,7 +4836,7 @@
   (symbol (lib_id "power:GND") (at 132.08 184.785 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a65445)
-    (property "Reference" "#PWR?" (at 132.08 191.135 0)
+    (property "Reference" "#PWR0125" (at 132.08 191.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.207 189.1792 0)
@@ -3911,6 +4850,11 @@
     )
     (pin "1" (uuid 918accb9-9658-42f5-99f1-cc2105218472))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0125") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "#PWR0125") (unit 1)
@@ -3936,6 +4880,11 @@
     )
     (pin "1" (uuid b13f6e0c-4a69-47fd-a999-e80deea23a0c))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR?") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005ef29697"
           (reference "#PWR?") (unit 1)
@@ -3950,7 +4899,7 @@
   (symbol (lib_id "Device:C") (at 114.3 180.975 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a65451)
-    (property "Reference" "C?" (at 117.475 180.34 0)
+    (property "Reference" "C24" (at 117.475 180.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 117.475 182.245 0)
@@ -3965,6 +4914,11 @@
     (pin "1" (uuid 22d1d503-9f9b-45b8-b509-f33122f6987c))
     (pin "2" (uuid e44c56a2-135b-4eae-80c3-db98eec0be50))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "C24") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "C24") (unit 1)
@@ -3976,7 +4930,7 @@
   (symbol (lib_id "Device:R") (at 104.775 174.625 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a65459)
-    (property "Reference" "R?" (at 104.775 170.18 90)
+    (property "Reference" "R43" (at 104.775 170.18 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 104.775 172.085 90)
@@ -3991,6 +4945,11 @@
     (pin "1" (uuid 259c98d9-c730-4897-ad7d-4ac1313000b5))
     (pin "2" (uuid 04448a1a-586f-436b-bd77-366fbf23bdfe))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R43") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R43") (unit 1)
@@ -4016,9 +4975,14 @@
     )
     (pin "1" (uuid f92a0b6a-bc99-4328-9ab3-e02f9850ad79))
     (pin "2" (uuid 3301ba74-71b7-4db3-8bf0-d1e67b37f27c))
-    (pin "3" (uuid c4186c88-748e-4e3c-8f65-a204a5fa6e85))
+    (pin "3" (uuid d18185db-0b41-4717-a183-c926baeb96b0))
     (pin "3" (uuid d18185db-0b41-4717-a183-c926baeb96b0))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "D5") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D5") (unit 1)
@@ -4030,7 +4994,7 @@
   (symbol (lib_id "Device:R") (at 85.725 174.625 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a65467)
-    (property "Reference" "R?" (at 85.725 170.18 90)
+    (property "Reference" "R42" (at 85.725 170.18 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 85.725 172.085 90)
@@ -4045,6 +5009,11 @@
     (pin "1" (uuid f875c64c-744d-47ab-bb8a-7b07bf9e979b))
     (pin "2" (uuid a2e34701-c604-42b9-9f05-001878735fdd))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R42") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R42") (unit 1)
@@ -4056,7 +5025,7 @@
   (symbol (lib_id "power:GND") (at 95.25 187.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a6546d)
-    (property "Reference" "#PWR?" (at 95.25 193.675 0)
+    (property "Reference" "#PWR0127" (at 95.25 193.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.377 191.7192 0)
@@ -4070,6 +5039,11 @@
     )
     (pin "1" (uuid 7af36f0f-14a3-4c01-96e0-b6821ecfde6b))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0127") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "#PWR0127") (unit 1)
@@ -4081,7 +5055,7 @@
   (symbol (lib_id "power:GND") (at 76.2 187.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063a6547e)
-    (property "Reference" "#PWR?" (at 76.2 193.675 0)
+    (property "Reference" "#PWR0128" (at 76.2 193.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.327 191.7192 0)
@@ -4095,6 +5069,11 @@
     )
     (pin "1" (uuid d9e0a459-e336-46c6-9ce2-6c05e9a081b1))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0128") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "#PWR0128") (unit 1)
@@ -4120,6 +5099,11 @@
     )
     (pin "1" (uuid cd0d6dc0-13c0-47c3-872b-29cc67dba4e5))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR?") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005ef29697"
           (reference "#PWR?") (unit 1)
@@ -4147,6 +5131,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 219602d8-c91f-4dfa-a26e-f05a97707b7a))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0130") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 171.45 111.125 0) (unit 1)
@@ -4165,6 +5156,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7b76c28e-7167-406b-b8f1-dfddbccf9671))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0131") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 190.5 111.125 0) (unit 1)
@@ -4183,6 +5181,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid af1002c6-86c3-498c-a157-707c1ae12446))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0132") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 203.2 111.125 0) (unit 1)
@@ -4201,6 +5206,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d8ff0bf5-0988-4bcc-bda7-90ee6f640381))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0133") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 171.45 146.05 0) (unit 1)
@@ -4219,6 +5231,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 49e69a53-3363-476d-87f3-85652eab1972))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0134") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 190.5 146.05 0) (unit 1)
@@ -4237,6 +5256,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid aecb0880-4c56-463a-81f0-e06755b3ed61))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0135") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 203.2 146.05 0) (unit 1)
@@ -4255,12 +5281,19 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7c979a45-fe0c-4d27-b2e2-dd7e8995ce96))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0136") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 114.3 187.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063cf03e3)
-    (property "Reference" "#PWR?" (at 114.3 193.675 0)
+    (property "Reference" "#PWR0139" (at 114.3 193.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.427 191.7192 0)
@@ -4274,11 +5307,1250 @@
     )
     (pin "1" (uuid 8f0ef5e4-556d-43b0-81ee-121bb2fc3d3e))
     (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR0139") (unit 1)
+        )
+      )
       (project "DCU"
         (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
           (reference "#PWR0139") (unit 1)
         )
       )
     )
+  )
+
+  (symbol (lib_id "KTHFS:D_Schottky_x2_Serial_AKC") (at 290.83 31.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 01aae0ed-f4ba-4597-875a-aa07c80ba501)
+    (property "Reference" "D1" (at 291.465 26.035 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "D_Schottky_x2_Serial_AKC" (at 264.16 38.1 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 290.83 31.75 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 290.83 31.75 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7e23c198-da1d-47e9-845b-620668c01245))
+    (pin "2" (uuid 75c8d407-a1d1-44bd-bae6-657c4482148f))
+    (pin "3" (uuid 8567c5d4-3092-4907-bf23-2a61ef777736))
+    (pin "3" (uuid 8567c5d4-3092-4907-bf23-2a61ef777736))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "D18") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 322.58 114.3 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 041ec4c2-a750-4add-9b77-a857810caef3)
+    (property "Reference" "#PWR013" (at 322.58 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 322.707 118.6942 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 322.58 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 322.58 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 18643da8-6f8d-4945-a12b-181ef8c62a0a))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 300.355 101.6 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 07837416-4c55-42cc-a694-16055626f6b1)
+    (property "Reference" "R39" (at 300.355 97.155 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "200" (at 300.355 99.06 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 300.355 99.822 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 300.355 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0e2c1419-f7fe-4469-a64a-5adb3e15f01d))
+    (pin "2" (uuid b06e874b-458d-4933-bc11-f6939017f342))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R39") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R14") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 363.855 69.215 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0ca50229-7166-4afb-96b9-6816934214e6)
+    (property "Reference" "R49" (at 363.855 64.77 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100" (at 363.855 66.675 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 363.855 67.437 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 363.855 69.215 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 71b12fde-6b78-43a8-a5a6-d637065dce74))
+    (pin "2" (uuid 58821521-6511-45d8-a18c-b98baca302ce))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R49") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 300.355 66.675 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 10d333f9-9c56-42a8-8809-2117dda4c131)
+    (property "Reference" "R38" (at 300.355 62.23 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "200" (at 300.355 64.135 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 300.355 64.897 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 300.355 66.675 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 97c82f1a-4b35-4786-a36f-aba85d3cd036))
+    (pin "2" (uuid 08a52ccd-e922-46ec-b97d-07154603de5c))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R38") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 309.88 79.375 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 12f53cbc-09a6-45fa-8563-6a97c63e7831)
+    (property "Reference" "#PWR09" (at 309.88 85.725 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 310.007 83.7692 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 309.88 79.375 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 309.88 79.375 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c5e850ad-91e6-47c0-962d-1d5259e22ff1))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 322.58 44.45 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 13eccce4-e4d3-4f1d-9ee1-e514e3c71d88)
+    (property "Reference" "#PWR011" (at 322.58 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 322.707 48.8442 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 322.58 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 322.58 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8de21479-d585-4b38-9a2b-b63f61dca525))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 290.83 57.15 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1d8c9b33-6eb2-4394-9c2e-6d1f197679a0)
+    (property "Reference" "#PWR03" (at 290.83 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 290.83 53.34 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 290.83 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 290.83 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8d2d7c1d-176d-4461-9fcb-a55d4fef4301))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Amplifier_Operational:LM358") (at 342.9 69.215 0) (unit 2)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 28fd3fef-a8cf-49e5-b674-9cbceabb09e8)
+    (property "Reference" "U2" (at 342.9 61.595 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LM358" (at 342.9 63.5 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 342.9 69.215 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 342.9 69.215 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 278e3fe5-3f83-47e0-8ffe-9cd018217cfd))
+    (pin "2" (uuid 8913a32e-2495-4825-89af-67643a55e1ee))
+    (pin "3" (uuid 7bcc130b-a119-40a8-853a-51f6677b4238))
+    (pin "5" (uuid ca2d4e24-692b-46d4-b19b-bae6339772df))
+    (pin "6" (uuid 85fbd92b-2870-46a2-847a-a95d2fe3f97e))
+    (pin "7" (uuid 5581e532-55c4-4d53-92eb-504cbc325eee))
+    (pin "4" (uuid 30015409-ca23-4f18-871b-9ed98681bfbd))
+    (pin "8" (uuid 63ec6ba7-489c-4c6a-8c94-23540a1b7f07))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "U2") (unit 2)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "U1") (unit 2)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 281.305 31.75 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2ce71a27-4bf6-4c9f-a9b5-6765ebe8bb35)
+    (property "Reference" "R9" (at 281.305 27.305 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "200" (at 281.305 29.21 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 281.305 29.972 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 281.305 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 786bba3e-80bb-4158-b77a-db39d78f2ae7))
+    (pin "2" (uuid 8195ea07-5e32-4bfe-8044-cad80aeceafa))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R9") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Amplifier_Operational:LM358") (at 342.9 34.29 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 31409d38-0e7b-43e0-a68d-13271ae6a9c1)
+    (property "Reference" "U2" (at 342.9 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LM358" (at 342.9 28.575 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 342.9 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 342.9 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bb718485-c25d-4a8a-8f0a-bb2203c67842))
+    (pin "2" (uuid 690ba37c-7de1-4e83-b2f9-a3b4f5bb36f8))
+    (pin "3" (uuid f72e741a-d7d8-4c8d-8b23-950fb8304545))
+    (pin "5" (uuid 999d3d57-f56d-4ca8-9a47-646ba12258cb))
+    (pin "6" (uuid 5474ceef-efd5-4bea-bfdf-f65bab6c030a))
+    (pin "7" (uuid 0dbc9808-ae19-48de-8621-e23e94101406))
+    (pin "4" (uuid 6e34fe3c-966b-4ba7-aa36-1f4916309a00))
+    (pin "8" (uuid a3d8d102-8a1b-460a-9cca-b0910f45d379))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "U2") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "U1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "KTHFS:D_Schottky_x2_Serial_AKC") (at 290.83 101.6 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 359d055d-aa41-4201-b723-bc5fb3decf49)
+    (property "Reference" "D3" (at 291.465 95.885 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "D_Schottky_x2_Serial_AKC" (at 264.16 109.22 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 290.83 101.6 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 290.83 101.6 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e0640fd2-efe9-4c21-b624-458a6c6f443d))
+    (pin "2" (uuid 8edab51c-c616-4852-9b4b-db91b7843716))
+    (pin "3" (uuid 42310734-50af-4972-ab00-e4dc916a961a))
+    (pin "3" (uuid 42310734-50af-4972-ab00-e4dc916a961a))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "D3") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "D24") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 363.855 139.065 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 427b2023-094c-421c-9f48-ba73f62867c1)
+    (property "Reference" "R51" (at 363.855 134.62 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100" (at 363.855 136.525 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 363.855 137.287 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 363.855 139.065 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5de88302-556d-494f-a4f5-ef3fa279e75f))
+    (pin "2" (uuid def173e3-39f0-4d83-9538-fd5a2fac2ac9))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R51") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R17") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 300.355 31.75 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 489fd1aa-da2e-49f2-8c0b-224c65a67616)
+    (property "Reference" "R37" (at 300.355 27.305 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "200" (at 300.355 29.21 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 300.355 29.972 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 300.355 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f286b6a1-0d71-4395-a2e7-30b65882b216))
+    (pin "2" (uuid 47c0ebee-e9b6-4a20-8f62-5a3d08b689c3))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R37") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 281.305 136.525 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5e8976e0-8a1d-483d-b4c6-14942771f735)
+    (property "Reference" "R36" (at 281.305 132.08 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "200" (at 281.305 133.985 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 281.305 134.747 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 281.305 136.525 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1a503653-234f-4539-b791-bf4becfcf63c))
+    (pin "2" (uuid 4471859d-f64c-43b3-b0f0-82609be97baa))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R36") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 300.355 136.525 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5f0cca8d-36a7-46f5-83b1-ad850df47b3e)
+    (property "Reference" "R40" (at 300.355 132.08 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "200" (at 300.355 133.985 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 300.355 134.747 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 300.355 136.525 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 849854aa-de34-4030-8ca1-630e092d9394))
+    (pin "2" (uuid 4d4c51f8-2c7f-40c3-ba5b-ce5deef29c3c))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R40") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 322.58 142.875 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 607b949e-34c1-47c2-9a62-7f80d5dbb333)
+    (property "Reference" "R47" (at 324.485 142.24 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "510" (at 324.485 144.145 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 320.802 142.875 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 322.58 142.875 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 54afc159-3fcf-479e-8955-20b8c6dfe2a6))
+    (pin "2" (uuid 29dedd21-9824-454f-bd7e-39059007b909))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R47") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R15") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 322.58 107.95 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6144fc2d-ef95-4fbd-bf60-4ccf5baaab5c)
+    (property "Reference" "R46" (at 324.485 107.315 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "510" (at 324.485 109.22 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 320.802 107.95 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 322.58 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 795478fe-84b9-4448-936b-87a52a1ad379))
+    (pin "2" (uuid 5174607b-d00c-47c7-af76-12eb98a9dcc0))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R46") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R16") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 290.83 127 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6c69f99f-dbf8-4215-b986-e11736e32838)
+    (property "Reference" "#PWR07" (at 290.83 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 290.83 123.19 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 290.83 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 290.83 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 62f6dc56-bc3e-4239-82ee-62b880644254))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0143") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Amplifier_Operational:LM358") (at 342.9 139.065 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6cd4c7d2-c49e-4b21-b7c7-e7f31790bcd0)
+    (property "Reference" "U3" (at 342.9 131.445 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LM358" (at 342.9 133.35 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 342.9 139.065 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 342.9 139.065 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5ec454b2-09f7-4904-a69f-b122fe2cb931))
+    (pin "2" (uuid d2cd6c36-2dc9-4123-909a-865a76248b71))
+    (pin "3" (uuid 8d889259-43ab-4f77-880a-bb633a7a5054))
+    (pin "5" (uuid 998fb635-59e4-42d8-953c-8d4dda5e60a2))
+    (pin "6" (uuid 6e681cc8-ac96-4082-b728-f4f4d6b51886))
+    (pin "7" (uuid c35e226c-c33d-4018-90dd-89355159b798))
+    (pin "4" (uuid 5cbfbea7-4145-4619-8aec-d1488535c30f))
+    (pin "8" (uuid d842c60f-e74e-46ce-b360-2b2b9e248139))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "U3") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "U4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 309.88 142.875 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 76b9de4a-6e06-4738-a5ab-1b9afd03efbf)
+    (property "Reference" "C6" (at 313.055 142.24 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "22n" (at 313.055 144.145 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 310.8452 146.685 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 309.88 142.875 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 860c027a-360e-4509-baec-296c01e3c5a6))
+    (pin "2" (uuid 6f243aea-d18f-4669-869d-cfd8915ef6d1))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "C6") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "C9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "KTHFS:D_Schottky_x2_Serial_AKC") (at 290.83 66.675 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7738b526-10e6-4124-9b30-72d47f3558a4)
+    (property "Reference" "D2" (at 291.465 60.96 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "D_Schottky_x2_Serial_AKC" (at 264.16 73.025 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 290.83 66.675 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 290.83 66.675 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9fdcb6a8-ea7b-4d85-981a-4b957969e55a))
+    (pin "2" (uuid 54aa23c6-ae6a-4bf1-ac03-b92a5992e9c1))
+    (pin "3" (uuid 2f47717a-2e00-4307-b278-d3448c431f69))
+    (pin "3" (uuid 2f47717a-2e00-4307-b278-d3448c431f69))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "D2") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "D17") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 322.58 73.025 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 87d5ae26-a033-45b2-8b81-132a24c1af7f)
+    (property "Reference" "R45" (at 324.485 72.39 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "510" (at 324.485 74.295 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 320.802 73.025 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 322.58 73.025 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3bbc6f04-0089-49cd-a121-0102717bc077))
+    (pin "2" (uuid cb69d034-0cba-4927-aa8f-4951890a794d))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R45") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 363.855 104.14 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8ca1d747-98c1-49dd-a76e-a0f5d97dacc2)
+    (property "Reference" "R50" (at 363.855 99.695 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100" (at 363.855 101.6 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 363.855 102.362 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 363.855 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 84317a91-0be6-44c3-9144-49ba5d1bc6de))
+    (pin "2" (uuid 52093f40-750b-4295-af3c-dc2e02671241))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R50") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R18") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 322.58 38.1 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8f156a75-d1c0-42c4-879e-f0950a60b1ac)
+    (property "Reference" "R44" (at 324.485 37.465 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "510" (at 324.485 39.37 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 320.802 38.1 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 322.58 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 09ca66f0-77e3-40a3-acfb-ee77583ea95c))
+    (pin "2" (uuid 9f37443e-ad16-49c6-9a5d-827f74f2316d))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R44") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 281.305 101.6 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 90dc1f4d-05fb-4191-879c-b7098c682962)
+    (property "Reference" "R35" (at 281.305 97.155 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "200" (at 281.305 99.06 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 281.305 99.822 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 281.305 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2472befe-12e1-4700-85b7-d61f79cabf3b))
+    (pin "2" (uuid 24d264fb-5362-4c02-b4e8-340e5da8c7f8))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R35") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 309.88 44.45 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9a3da545-59d9-48be-9732-5795c8aa1da5)
+    (property "Reference" "#PWR08" (at 309.88 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 310.007 48.8442 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 309.88 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 309.88 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f60000b8-7aa0-475d-9313-e8f664d7fcb3))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 309.88 38.1 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9a411fc6-60f1-403d-9614-c4a8912f2bfb)
+    (property "Reference" "C3" (at 313.055 37.465 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "22n" (at 313.055 39.37 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 310.8452 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 309.88 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f9320feb-ab13-48dd-b450-9d52dc00977a))
+    (pin "2" (uuid df44dbb3-9d78-4c99-8f05-fd5342ad92af))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "C3") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "C2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 290.83 92.075 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9ea148be-c96c-4031-b3f6-d4060f334098)
+    (property "Reference" "#PWR05" (at 290.83 95.885 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 290.83 88.265 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 290.83 92.075 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 290.83 92.075 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0acb96b8-35b4-4a1c-a765-c00c7095779e))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 290.83 44.45 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a1f8024f-a4cb-4e60-8017-062d2e11beb3)
+    (property "Reference" "#PWR02" (at 290.83 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 290.957 48.8442 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 290.83 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 290.83 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c5d3da57-96bb-4dc5-8ab5-e612416ebce1))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 281.305 66.675 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid aa4af3ed-9ef0-4585-ba10-c30da907680f)
+    (property "Reference" "R10" (at 281.305 62.23 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "200" (at 281.305 64.135 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 281.305 64.897 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 281.305 66.675 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 364e7a0a-f8c6-44d0-997c-4ff61a803a9e))
+    (pin "2" (uuid 91dafdc4-b471-4d33-a4e6-6582d5d7a440))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R10") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 290.83 22.225 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ab8bcb6e-574e-4bbf-85e3-00b149497495)
+    (property "Reference" "#PWR01" (at 290.83 26.035 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 290.83 18.415 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 290.83 22.225 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 290.83 22.225 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 15955b36-d86e-4211-99fb-e7c50062d1e1))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 322.58 79.375 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b277bc8d-4aa1-47bf-9ee1-ee0ea7201bf7)
+    (property "Reference" "#PWR012" (at 322.58 85.725 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 322.707 83.7692 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 322.58 79.375 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 322.58 79.375 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 46634c8d-c866-4c8a-bc3b-c0d0dc4bb003))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "KTHFS:D_Schottky_x2_Serial_AKC") (at 290.83 136.525 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b8983c09-14b3-4892-9e34-74b178214028)
+    (property "Reference" "D4" (at 291.465 130.81 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "D_Schottky_x2_Serial_AKC" (at 264.16 144.145 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 290.83 136.525 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 290.83 136.525 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0f6667d5-c428-40ac-bdcd-bf8d61d905e6))
+    (pin "2" (uuid 0eb82d6d-4079-4586-898c-26722bc45fcb))
+    (pin "3" (uuid e6f35ca2-6985-440a-9579-2fbb264fe1f9))
+    (pin "3" (uuid e6f35ca2-6985-440a-9579-2fbb264fe1f9))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "D4") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "D23") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Amplifier_Operational:LM358") (at 342.9 104.14 0) (unit 2)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c1fd34e1-5bbf-4c7a-a42d-f374eacddbab)
+    (property "Reference" "U3" (at 342.9 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LM358" (at 342.9 98.425 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 342.9 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 342.9 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 76dc619b-82ef-4130-b05a-b1e3268f2ff7))
+    (pin "2" (uuid a045a80e-23f5-44cb-b2ca-aeacfd7e1866))
+    (pin "3" (uuid ec54769a-b37c-442a-8a8a-4946b834b7c5))
+    (pin "5" (uuid 47206998-362e-4aa4-a8bd-91fd8e2b809f))
+    (pin "6" (uuid 6affbba8-b88d-44c7-9860-566253868d7f))
+    (pin "7" (uuid 37081c6f-b6ba-47c9-aefb-23024b0b8599))
+    (pin "4" (uuid de5fa69b-a85c-4258-a39e-187b72fb308b))
+    (pin "8" (uuid 0ecd5030-ab1d-4c51-80cf-b5b3877101e5))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "U3") (unit 2)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "U4") (unit 2)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 309.88 73.025 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c38da028-50b4-4fff-86a8-88a6e8f34384)
+    (property "Reference" "C4" (at 313.055 72.39 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "22n" (at 313.055 74.295 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 310.8452 76.835 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 309.88 73.025 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4b49a56f-a183-422d-98de-9c12eddc76ea))
+    (pin "2" (uuid 893c92d5-339d-45e6-9606-652543ad1de2))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "C4") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 290.83 79.375 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c4261581-db55-4545-82f3-2bd670698900)
+    (property "Reference" "#PWR04" (at 290.83 85.725 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 290.957 83.7692 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 290.83 79.375 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 290.83 79.375 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid afadb963-9596-4307-b7c3-d8079e6169fa))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 309.88 107.95 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid cda31380-5a1e-4f91-b154-3f09aef00601)
+    (property "Reference" "C5" (at 313.055 107.315 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "22n" (at 313.055 109.22 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 310.8452 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 309.88 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1ec520b1-3dd1-4e58-b309-47b26c698178))
+    (pin "2" (uuid 696ae4b5-cc8a-4ea1-bb57-7f0de4e7cbf0))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "C5") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "C10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 290.83 114.3 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d6087930-6033-47bb-855a-9700c23907af)
+    (property "Reference" "#PWR06" (at 290.83 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 290.957 118.6942 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 290.83 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 290.83 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cb132f5b-2d42-4b0e-9f6e-e038b70e7192))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 363.855 34.29 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e8ab2f74-727c-4d49-ab86-39791993e4de)
+    (property "Reference" "R48" (at 363.855 29.845 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100" (at 363.855 31.75 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 363.855 32.512 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 363.855 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6c122333-8839-40a2-96c7-880319e01fca))
+    (pin "2" (uuid b343718b-608c-48db-9232-cfcd09755d84))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "R48") (unit 1)
+        )
+      )
+      (project "DCU"
+        (path "/cf40a1ee-66d2-4405-916c-375b3aec421b/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 309.88 114.3 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid eb8caeb2-d70e-480d-8448-a63fdc2da647)
+    (property "Reference" "#PWR010" (at 309.88 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 310.007 118.6942 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 309.88 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 309.88 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c6154a5a-8c18-4489-99ce-6375e08753ab))
+    (instances
+      (project "SIGNAL_CONDITIONING"
+        (path "/927a7cc3-adef-4038-bac9-eaec00344223"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
   )
 )
