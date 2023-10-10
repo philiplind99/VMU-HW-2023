@@ -441,9 +441,6 @@
   )
   (junction (at 69.85 28.575) (diameter 0) (color 0 0 0 0)
     (uuid 868613a7-7464-4f8d-ad75-7475102de8c3)
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
   (junction (at 82.55 133.35) (diameter 0) (color 0 0 0 0)
@@ -453,15 +450,12 @@
     (uuid 2e1db4db-f4e4-4a59-8a18-0aa05361806f)
   )
 <<<<<<< HEAD
-<<<<<<< HEAD
   (junction (at 82.55 28.575) (diameter 0) (color 0 0 0 0)
     (uuid 42086f12-66ce-4c49-967b-5e03f43df3f0)
   )
   (junction (at 203.2 133.35) (diameter 0) (color 0 0 0 0)
     (uuid 427ffbd2-3e36-4f12-874a-44c7e856145e)
   )
-=======
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
 =======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   (junction (at 114.3 66.04) (diameter 0) (color 0 0 0 0)
@@ -483,15 +477,12 @@
     (uuid 7a71d681-40bb-4aa6-b3dd-01f7873b8e2a)
   )
 <<<<<<< HEAD
-<<<<<<< HEAD
   (junction (at 69.85 28.575) (diameter 0) (color 0 0 0 0)
     (uuid 859fd862-6781-43b4-9c0b-48dae53bd904)
   )
   (junction (at 234.95 31.115) (diameter 0) (color 0 0 0 0)
     (uuid 97829767-4267-44b6-bfcf-1a290d69cacf)
 =======
-=======
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   (junction (at 69.85 98.425) (diameter 0) (color 0 0 0 0)
     (uuid c62ddb46-0667-4c10-9048-fc44195a376d)
   )
@@ -505,7 +496,6 @@
   (junction (at 69.85 63.5) (diameter 0) (color 0 0 0 0)
     (uuid a79b7446-6496-4c18-91a5-108ca5435aee)
   )
-<<<<<<< HEAD
 <<<<<<< HEAD
   (junction (at 146.05 177.165) (diameter 0) (color 0 0 0 0)
     (uuid acb5ada0-c290-470f-af26-aec8c33ded8e)
@@ -530,12 +520,9 @@
   )
 =======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   (junction (at 114.3 31.115) (diameter 0) (color 0 0 0 0)
     (uuid cb4680eb-6438-4cf6-9acf-58fca1845cb0)
   )
-<<<<<<< HEAD
 <<<<<<< HEAD
   (junction (at 203.2 98.425) (diameter 0) (color 0 0 0 0)
     (uuid e4389dc8-aa72-4eea-8f18-3960797a490a)
@@ -549,8 +536,6 @@
   (junction (at 114.3 135.89) (diameter 0) (color 0 0 0 0)
     (uuid f8787987-707b-4534-b0f9-38a64fa8768d)
   )
-=======
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
 =======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
 
@@ -1160,9 +1145,6 @@
   (wire (pts (xy 82.55 63.5) (xy 82.55 66.04))
     (stroke (width 0) (type default))
     (uuid c47ac56f-98c4-4a03-9802-de124d350152)
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
   (wire (pts (xy 82.55 41.275) (xy 82.55 38.735))
@@ -1174,13 +1156,10 @@
     (uuid 0321d012-fee6-4583-8dbc-958e7c9b2672)
   )
 <<<<<<< HEAD
-<<<<<<< HEAD
   (wire (pts (xy 254 66.04) (xy 248.285 66.04))
     (stroke (width 0) (type default))
     (uuid 046d911c-f503-467a-9d16-27780aeb51fa)
   )
-=======
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
 =======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   (wire (pts (xy 69.85 100.965) (xy 69.85 98.425))
@@ -1192,15 +1171,12 @@
     (uuid 05816820-25a4-47f1-a293-f1cdc0c81fd8)
   )
 <<<<<<< HEAD
-<<<<<<< HEAD
   (wire (pts (xy 190.5 63.5) (xy 190.5 66.04))
     (stroke (width 0) (type default))
     (uuid 0696c649-5e14-47ed-a102-0ac4da1c1d31)
   )
   (wire (pts (xy 56.515 98.425) (xy 55.88 98.425))
 =======
-=======
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   (wire (pts (xy 171.45 20.955) (xy 171.45 19.05))
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
     (stroke (width 0) (type default))
@@ -1215,13 +1191,10 @@
     (uuid 087b21e3-59f5-47df-9424-a9f2b18c2a9a)
   )
 <<<<<<< HEAD
-<<<<<<< HEAD
   (wire (pts (xy 69.85 63.5) (xy 64.135 63.5))
     (stroke (width 0) (type default))
     (uuid 0c63ddd7-9a45-45a0-a5d4-2d03ca7f11df)
 =======
-=======
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   (wire (pts (xy 203.2 108.585) (xy 203.2 111.125))
     (stroke (width 0) (type default))
     (uuid d2f93516-4afe-4fbc-ba08-c4409789598a)
@@ -1332,15 +1305,12 @@
     (uuid 11c96055-09ed-4519-b8df-be065474b47f)
   )
 <<<<<<< HEAD
-<<<<<<< HEAD
   (wire (pts (xy 190.5 108.585) (xy 190.5 111.125))
     (stroke (width 0) (type default))
     (uuid 123f4c5b-2346-4a78-a01b-17003b075c05)
   )
   (wire (pts (xy 142.24 177.165) (xy 146.05 177.165))
 =======
-=======
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   (wire (pts (xy 254 100.965) (xy 248.285 100.965))
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
     (stroke (width 0) (type default))
@@ -1784,27 +1754,19 @@
     (stroke (width 0) (type default))
     (uuid a75d749d-1e7e-4efc-9192-a0fb4750e0aa)
   )
-<<<<<<< HEAD
   (wire (pts (xy 50.8 146.05) (xy 50.8 140.97))
     (stroke (width 0) (type default))
     (uuid a854421e-a580-4964-a034-8ca86b8d2e3d)
   )
   (wire (pts (xy 152.4 63.5) (xy 158.115 63.5))
-=======
-  (wire (pts (xy 69.85 76.2) (xy 69.85 73.66))
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
     (stroke (width 0) (type default))
     (uuid a8668831-13f8-4c7f-8517-4cb28df29977)
   )
-<<<<<<< HEAD
   (wire (pts (xy 215.9 138.43) (xy 212.725 138.43))
     (stroke (width 0) (type default))
     (uuid ab9ce78b-81a1-45c1-a3ed-5d977701997b)
   )
   (wire (pts (xy 215.9 133.35) (xy 203.2 133.35))
-=======
-  (wire (pts (xy 45.085 63.5) (xy 45.72 63.5))
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
     (stroke (width 0) (type default))
     (uuid ae202aa0-6ffb-469a-9240-0cfc849e4e14)
   )
@@ -2034,7 +1996,6 @@
   )
 
 <<<<<<< HEAD
-<<<<<<< HEAD
   (hierarchical_label "BPPS1" (shape output) (at 133.35 135.89 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 01819119-c791-4011-b450-49b6e2a263c9)
@@ -2043,18 +2004,11 @@
 =======
   (hierarchical_label "BRAKE_PRESSURE_2_SIGNAL" (shape input) (at 146.05 127 180)
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
-  (hierarchical_label "BRAKE_PRESSURE_2_SIGNAL" (shape input) (at 146.05 127 180)
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 18a4959d-bef4-4d93-9317-4a68b0e17175)
   )
 <<<<<<< HEAD
-<<<<<<< HEAD
   (hierarchical_label "STEERING_ANGLE_2" (shape output) (at 254 66.04 0)
-=======
-  (hierarchical_label "BPPS2" (shape output) (at 133.35 100.965 0)
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
 =======
   (hierarchical_label "BPPS2" (shape output) (at 133.35 100.965 0)
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
@@ -2062,11 +2016,7 @@
     (uuid 19aeed40-9887-4101-81eb-3a1921d11ab9)
   )
 <<<<<<< HEAD
-<<<<<<< HEAD
   (hierarchical_label "STEERING_ANGLE_1_SIGNAL" (shape input) (at 146.05 22.225 180)
-=======
-  (hierarchical_label "BPPS2_SIGNAL" (shape input) (at 31.75 98.425 180)
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
 =======
   (hierarchical_label "BPPS2_SIGNAL" (shape input) (at 31.75 98.425 180)
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
@@ -2074,11 +2024,7 @@
     (uuid 1bc6a7c8-1a92-4d3d-b362-1d78272e1a0e)
   )
 <<<<<<< HEAD
-<<<<<<< HEAD
   (hierarchical_label "APPS2_SIGNAL" (shape input) (at 31.75 28.575 180)
-=======
-  (hierarchical_label "BRAKE_PRESSURE_1_SIGNAL" (shape input) (at 146.05 92.075 180)
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
 =======
   (hierarchical_label "BRAKE_PRESSURE_1_SIGNAL" (shape input) (at 146.05 92.075 180)
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
@@ -2086,11 +2032,7 @@
     (uuid 24d67c3c-d783-4649-a4f1-72ccfd42cc54)
   )
 <<<<<<< HEAD
-<<<<<<< HEAD
   (hierarchical_label "APPS2" (shape output) (at 133.35 31.115 0)
-=======
-  (hierarchical_label "APPS1" (shape output) (at 133.35 66.04 0)
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
 =======
   (hierarchical_label "APPS1" (shape output) (at 133.35 66.04 0)
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
@@ -2098,11 +2040,7 @@
     (uuid 4ada59bf-1480-46f8-866c-18a86f55a4a2)
   )
 <<<<<<< HEAD
-<<<<<<< HEAD
   (hierarchical_label "APPS1" (shape output) (at 133.35 66.04 0)
-=======
-  (hierarchical_label "BRAKE_PRESSURE_1" (shape output) (at 254 100.965 0)
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
 =======
   (hierarchical_label "BRAKE_PRESSURE_1" (shape output) (at 254 100.965 0)
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
@@ -2110,15 +2048,12 @@
     (uuid 4b15a6a9-3edb-4952-b517-3f84c6a25de6)
   )
 <<<<<<< HEAD
-<<<<<<< HEAD
   (hierarchical_label "BRAKE_PRESSURE_2_SIGNAL" (shape input) (at 146.05 127 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 58e016c6-829f-4d8e-888b-f793e54287c6)
   )
   (hierarchical_label "BPPS1_SIGNAL" (shape input) (at 31.75 133.35 180)
 =======
-=======
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   (hierarchical_label "STEERING_ANGLE_2" (shape output) (at 254 66.04 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 41a1f5be-91cc-4806-9855-d1a0d3561b00)
@@ -2128,7 +2063,6 @@
     (uuid 76503b90-7db6-4a6c-8959-174ca91a5684)
   )
   (hierarchical_label "STEERING_ANGLE_1_SIGNAL" (shape input) (at 146.05 22.225 180)
-<<<<<<< HEAD
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5ce1dc6c-48d1-41b1-b4bf-dd40bd29c768)
@@ -2138,21 +2072,12 @@
 =======
   (hierarchical_label "BRAKE_PRESSURE_2" (shape output) (at 254 135.89 0)
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 8c4a581d-fa7d-4783-8e08-28be603a8c86)
-  )
-  (hierarchical_label "BRAKE_PRESSURE_2" (shape output) (at 254 135.89 0)
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7ace51be-bc20-4cd0-9c92-479eb9faa3df)
   )
 <<<<<<< HEAD
-<<<<<<< HEAD
   (hierarchical_label "PCB_TEMPERATURE" (shape output) (at 152.4 177.165 0)
 =======
-=======
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   (hierarchical_label "APPS2_SIGNAL" (shape input) (at 31.75 28.575 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a2f20210-2086-48d6-b9dc-7a02b83b136a)
@@ -2162,38 +2087,22 @@
     (uuid a9063f21-3ced-4af3-82f0-01f0133cf7c9)
   )
   (hierarchical_label "STEERING_ANGLE_1" (shape output) (at 254 31.115 0)
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8362f16a-2331-4cf0-9d91-5d2fba0cca23)
   )
 <<<<<<< HEAD
-<<<<<<< HEAD
   (hierarchical_label "BPPS2_SIGNAL" (shape input) (at 31.75 98.425 180)
-=======
-  (hierarchical_label "APPS2" (shape output) (at 133.35 31.115 0)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid d883e1f1-90e7-48be-b347-8264b7610f0f)
-  )
-  (hierarchical_label "APPS1_SIGNAL" (shape input) (at 31.75 63.5 180)
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 839ca9cc-f6ac-4bee-81c6-87092e366ce5)
   )
-<<<<<<< HEAD
   (hierarchical_label "BPPS2" (shape output) (at 133.35 100.965 0)
 =======
   (hierarchical_label "APPS2" (shape output) (at 133.35 31.115 0)
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
-  (hierarchical_label "BPPS1" (shape output) (at 133.35 135.89 0)
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 90556df9-fc0f-4cb4-a2f5-120102d0f640)
   )
-<<<<<<< HEAD
   (hierarchical_label "APPS1_SIGNAL" (shape input) (at 31.75 63.5 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 94209727-582a-4573-a6a8-c987bae4b7b1)
@@ -2214,11 +2123,6 @@
   (hierarchical_label "STEERING_ANGLE_1" (shape output) (at 254 31.115 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid db3ab833-cd2e-44da-8f8c-28ac9d938167)
-=======
-  (hierarchical_label "BPPS1_SIGNAL" (shape input) (at 31.75 133.35 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid e3f45f32-32be-4fb8-b183-451d9595647e)
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
 =======
   (hierarchical_label "BPPS1_SIGNAL" (shape input) (at 31.75 133.35 180)
     (effects (font (size 1.27 1.27)) (justify right))
@@ -2271,9 +2175,6 @@
     (pin "1" (uuid d68ba362-3afb-4fc9-8060-2c07dced8c17))
 =======
     (pin "1" (uuid 0863a6e9-59e4-4e50-a7d4-3beb3f9259fe))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -2296,9 +2197,6 @@
     (pin "1" (uuid bb6b1d0f-e710-4c67-8bb6-d9d01002f097))
 =======
     (pin "1" (uuid 0c53a522-fea6-4548-9cf1-c5f6bb4737c1))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -2489,9 +2387,6 @@
     (pin "1" (uuid d6d6ae6a-7bd8-4722-91f2-affb5ff5a573))
 =======
     (pin "1" (uuid 7761a612-c34e-4061-9588-56ba839f9669))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -2514,9 +2409,6 @@
     (pin "1" (uuid 3b6ef204-c5b5-4f91-a78a-356822274ed2))
 =======
     (pin "1" (uuid f2a257cf-6b82-47da-b5a4-735382f1de3e))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -2695,9 +2587,6 @@
     (pin "1" (uuid b32c620c-0ff3-431f-96a0-eec0379f0d82))
 =======
     (pin "1" (uuid ce35fa47-8b60-4202-9154-3c9b92d71e75))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -2720,9 +2609,6 @@
     (pin "1" (uuid dbb3fbec-0504-422f-9a09-1ad80a66f8ab))
 =======
     (pin "1" (uuid 54b05546-560d-481b-b1e4-9ffdbc611ce3))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -2945,9 +2831,6 @@
     (pin "1" (uuid 819003f7-af46-4612-a76c-31a0409e97bd))
 =======
     (pin "1" (uuid 78abaa78-a098-48a9-a132-5b18fc2b831e))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -2970,9 +2853,6 @@
     (pin "1" (uuid e33b68df-9093-4221-aff9-3c4bbd881803))
 =======
     (pin "1" (uuid a27ffbce-84ff-4e5b-9037-a4ea501476bc))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -3157,9 +3037,6 @@
     (pin "1" (uuid d2ee4ed9-903e-46e9-8b44-aa0508ced671))
 =======
     (pin "1" (uuid 6a807d20-f8e4-4d82-b7d1-29349e484af3))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -3182,9 +3059,6 @@
     (pin "1" (uuid 0f90fe2b-8744-400d-8b4a-293cffb15c81))
 =======
     (pin "1" (uuid 07130195-6321-4d44-b394-1d53abc7bfac))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -3207,9 +3081,6 @@
     (pin "1" (uuid ba289c17-3575-4960-bebe-ebbc1423d89e))
 =======
     (pin "1" (uuid c7433825-1975-4e1d-8ad1-9710f7ca8910))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -3232,9 +3103,6 @@
     (pin "1" (uuid 29fde899-fed6-4379-8aed-7bec61dd9798))
 =======
     (pin "1" (uuid 56911022-a04c-44e3-8bbe-e5cbe3935a7f))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -3381,9 +3249,6 @@
     (pin "1" (uuid f3a58431-e244-4582-bc5d-281c38982f1a))
 =======
     (pin "1" (uuid fd540f56-ad9e-4bc7-8fcb-5a137e2887e7))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -3406,9 +3271,6 @@
     (pin "1" (uuid 41285cf4-f69b-4f5d-93af-d2ea72e47102))
 =======
     (pin "1" (uuid 2a155c55-1fd2-41ad-bb11-28e63976e61d))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -3431,9 +3293,6 @@
     (pin "1" (uuid 11773e45-3d10-433c-a741-a9f0b6a59625))
 =======
     (pin "1" (uuid 6e9fcd7f-c91e-42db-bf1b-a39d1bcec02f))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -3456,9 +3315,6 @@
     (pin "1" (uuid ed074049-fa0e-4fd3-af4f-114e17bbf57e))
 =======
     (pin "1" (uuid b4494c94-e5db-4390-ab59-d7c0b94a7531))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -3481,9 +3337,6 @@
     (pin "1" (uuid 5ce9d76c-42d6-49a1-852e-ab96afdab913))
 =======
     (pin "1" (uuid fb0981e7-ee14-4d6e-9fa5-c5f22d69b41a))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -3506,9 +3359,6 @@
     (pin "1" (uuid 071613aa-c5bd-4745-ac5e-b8f62bee8d7c))
 =======
     (pin "1" (uuid 21a8c4e9-0481-4430-aee1-02b34b9bd5fb))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -3531,9 +3381,6 @@
     (pin "1" (uuid 08f44eed-f239-44b4-a548-1233fc5eb83b))
 =======
     (pin "1" (uuid 23909961-06e5-4532-ae88-a5889a1c1510))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -3556,9 +3403,6 @@
     (pin "1" (uuid 1a40b118-2833-429f-b192-92b5a195b28b))
 =======
     (pin "1" (uuid 3ff29381-caf0-4857-9ceb-5ecb781e7054))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -3615,9 +3459,6 @@
     (pin "2" (uuid b49e9260-6925-452c-b966-80b459d711ea))
     (pin "3" (uuid b8ab0d16-d980-4200-9bc0-dd2820c3e78e))
     (pin "3" (uuid 03b7c3ce-482f-4703-aabc-3aa4e8630aeb))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
     (instances
       (project "DCU"
@@ -3649,9 +3490,6 @@
     (pin "2" (uuid 02b56de5-47f0-43de-9a92-27070bbd2569))
     (pin "3" (uuid bb6fe493-927f-4066-aea5-1e25618a5374))
     (pin "3" (uuid ea784a44-6e8f-4c1e-b858-71800f4587ff))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
     (instances
       (project "DCU"
@@ -4030,9 +3868,6 @@
     (pin "1" (uuid 8fc57afa-e666-4ffd-86b8-8756a1c0abbc))
 =======
     (pin "1" (uuid d46d11ee-3cff-4e8a-a3cc-99b0f5b1ea26))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -4055,9 +3890,6 @@
     (pin "1" (uuid 77446814-10f8-4473-8ec0-d8a2002fa566))
 =======
     (pin "1" (uuid 00e4b811-0728-4455-9b41-9ee47f56778d))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -4080,9 +3912,6 @@
     (pin "1" (uuid 6647a9f0-a3da-4f98-99f2-4d901aa26c29))
 =======
     (pin "1" (uuid 7304abfa-f8da-4701-ab3c-fe6ac96b16b0))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -4105,9 +3934,6 @@
     (pin "1" (uuid f8183f11-16a4-465a-99bb-b38be95b582b))
 =======
     (pin "1" (uuid 6bfc5b49-31e5-4ac6-94fa-84409ab99be0))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -4130,9 +3956,6 @@
     (pin "1" (uuid 3a524040-7a96-4fb5-b5de-cb2211062a81))
 =======
     (pin "1" (uuid a5804801-be4f-43f4-89ae-4fb92bcca7b1))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -4155,9 +3978,6 @@
     (pin "1" (uuid 51626792-e7dd-47c3-8310-cc0fbdbaca46))
 =======
     (pin "1" (uuid 8b6200e5-8f3c-4168-8e24-b21d271a7d1d))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -4180,9 +4000,6 @@
     (pin "1" (uuid 6cecf38e-dff2-4e6c-a734-1dbf18f96aa2))
 =======
     (pin "1" (uuid 911e96e9-da21-4f3e-9396-10ca6b633e90))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -4205,9 +4022,6 @@
     (pin "1" (uuid b4e82e2d-d283-4c77-9acd-694a3c1ab3ef))
 =======
     (pin "1" (uuid 69b2c676-689b-42b3-b851-19a71f401eef))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -4230,9 +4044,6 @@
     (pin "1" (uuid 6466ba35-05d9-4a73-9ba8-dabb47864ecc))
 =======
     (pin "1" (uuid 751f912d-6812-4fba-8803-1da046e119a8))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -4501,9 +4312,6 @@
     (pin "2" (uuid e0b812ac-bd33-404d-9d09-209c8176e12b))
     (pin "3" (uuid a63bdd03-b70e-45c5-a35f-f711149df66b))
     (pin "3" (uuid c69d88f7-7dcb-4052-b5ce-9cd53ae6c2e6))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
     (instances
       (project "DCU"
@@ -4535,9 +4343,6 @@
     (pin "2" (uuid 3b9f7e40-7d19-4666-8a28-dec1b2086dbb))
     (pin "3" (uuid decba837-8c30-4fd4-ad1c-7d658eceb135))
     (pin "3" (uuid db610d21-5b69-41d7-a697-736e94e1ea02))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
     (instances
       (project "DCU"
@@ -4973,9 +4778,6 @@
     (pin "2" (uuid 3301ba74-71b7-4db3-8bf0-d1e67b37f27c))
     (pin "3" (uuid c4186c88-748e-4e3c-8f65-a204a5fa6e85))
     (pin "3" (uuid d18185db-0b41-4717-a183-c926baeb96b0))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
     (instances
       (project "DCU"
@@ -5109,9 +4911,6 @@
     (pin "1" (uuid c497e2da-706e-4317-a284-8d465c9f64ee))
 =======
     (pin "1" (uuid 219602d8-c91f-4dfa-a26e-f05a97707b7a))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -5134,9 +4933,6 @@
     (pin "1" (uuid e637e69a-c647-44d9-bf45-3ea4101fca3d))
 =======
     (pin "1" (uuid 7b76c28e-7167-406b-b8f1-dfddbccf9671))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -5159,9 +4955,6 @@
     (pin "1" (uuid c304e22b-95da-4295-9429-a291b63ce46e))
 =======
     (pin "1" (uuid af1002c6-86c3-498c-a157-707c1ae12446))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -5184,9 +4977,6 @@
     (pin "1" (uuid 1387399d-a1b3-4b98-9ceb-cbabe897c650))
 =======
     (pin "1" (uuid d8ff0bf5-0988-4bcc-bda7-90ee6f640381))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -5209,9 +4999,6 @@
     (pin "1" (uuid ec6ed07e-c77d-4e07-8ccf-1151866c3d54))
 =======
     (pin "1" (uuid 49e69a53-3363-476d-87f3-85652eab1972))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -5234,9 +5021,6 @@
     (pin "1" (uuid 04ce5bc6-2b6e-488e-8841-51c6acec0bee))
 =======
     (pin "1" (uuid aecb0880-4c56-463a-81f0-e06755b3ed61))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
@@ -5259,9 +5043,6 @@
     (pin "1" (uuid 8810de0d-054a-4dfb-8d8a-62640c7f0e42))
 =======
     (pin "1" (uuid 7c979a45-fe0c-4d27-b2e2-dd7e8995ce96))
-<<<<<<< HEAD
->>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
-=======
 >>>>>>> parent of af055bf (SIGNAL_CONDITIONING)
   )
 
