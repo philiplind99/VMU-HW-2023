@@ -5,12 +5,12 @@
   (paper "A4")
 
   (title_block
-    (title "DRIVER CONTROL UNIT (DCU)")
-    (rev "2.0")
+    (title "VEHICLE MEASUREMENT UNIT (VMU)")
+    (rev "1.0")
     (company "KTH FORMULA STUDENT")
-    (comment 1 "DeV17")
-    (comment 2 "JOACHIM LARSSON")
-    (comment 3 "JOACLA@KTH.SE")
+    (comment 1 "DeV17/DeV18")
+    (comment 2 "FANNY NYBERG")
+    (comment 3 "FNYBE@KTH.SE")
   )
 
   (lib_symbols
@@ -967,31 +967,31 @@
     (uuid 799a420f-946c-4a2f-9623-bcce9a7f6bad)
   )
 
-  (hierarchical_label "STEERING_ANGLE_1_SUPPLY" (shape output) (at 203.2 133.35 0)
+  (hierarchical_label "STEERING_ANGLE_1_SUPPLY" (shape output) (at 203.2 133.35 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 41fece19-7cf6-47bc-9b0e-62b2eb4bc3e2)
   )
-  (hierarchical_label "APPS1_SUPPLY" (shape output) (at 50.8 133.35 0)
+  (hierarchical_label "APPS1_SUPPLY" (shape output) (at 50.8 133.35 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 44d6aa63-caeb-4bc1-9fe1-d42c24366c15)
   )
-  (hierarchical_label "APPS2_SUPPLY" (shape output) (at 88.9 133.35 0)
+  (hierarchical_label "APPS2_SUPPLY" (shape output) (at 88.9 133.35 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 455b5f0b-f48c-43ea-a59c-8eb4a0ae2f3b)
   )
-  (hierarchical_label "CONTROL_SYSTEMS_SUPPLY" (shape input) (at 57.15 63.5 180)
+  (hierarchical_label "CONTROL_SYSTEMS_SUPPLY" (shape input) (at 57.15 63.5 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5c27359b-eff3-4a20-bb4b-43e88ee2e505)
   )
-  (hierarchical_label "BPPS2_SUPPLY" (shape output) (at 165.1 133.35 0)
+  (hierarchical_label "BPPS2_SUPPLY" (shape output) (at 165.1 133.35 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 79569857-2354-4e07-a59e-e1958bdce021)
   )
-  (hierarchical_label "STEERING_ANGLE_2_SUPPLY" (shape output) (at 241.3 133.35 0)
+  (hierarchical_label "STEERING_ANGLE_2_SUPPLY" (shape output) (at 241.3 133.35 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7b0e0a82-d072-4e03-8315-d5d9d9b7bec1)
   )
-  (hierarchical_label "BPPS1_SUPPLY" (shape output) (at 127 133.35 0)
+  (hierarchical_label "BPPS1_SUPPLY" (shape output) (at 127 133.35 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7c8d3f1f-321c-48e6-98bd-152f112cbda5)
   )
@@ -1010,6 +1010,13 @@
     )
     (property "Datasheet" "https://katalog.we-online.de/pm/datasheet/173010578.pdf" (at 117.475 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "VR1") (unit 1)
+        )
+      )
     )
   )
 
@@ -1033,6 +1040,11 @@
     (instances
       (project "DCU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
+          (reference "F1") (unit 1)
+        )
+      )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
           (reference "F1") (unit 1)
         )
       )
@@ -1062,6 +1074,11 @@
           (reference "D19") (unit 1)
         )
       )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "D19") (unit 1)
+        )
+      )
     )
   )
 
@@ -1085,6 +1102,11 @@
     (instances
       (project "DCU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
+          (reference "D20") (unit 1)
+        )
+      )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
           (reference "D20") (unit 1)
         )
       )
@@ -1114,6 +1136,11 @@
           (reference "C6") (unit 1)
         )
       )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "C6") (unit 1)
+        )
+      )
     )
   )
 
@@ -1133,6 +1160,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid afa8c83a-5392-4ee4-820d-100f61e4e04e))
+    (instances
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "#PWR045") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 88.9 76.2 0) (unit 1)
@@ -1151,6 +1185,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c1c167dd-f7ef-4a27-b60d-8a2a6be1b2b8))
+    (instances
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "#PWR042") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:D_TVS") (at 146.05 69.85 270) (unit 1)
@@ -1173,6 +1214,11 @@
     (instances
       (project "DCU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
+          (reference "D21") (unit 1)
+        )
+      )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
           (reference "D21") (unit 1)
         )
       )
@@ -1202,6 +1248,11 @@
           (reference "C7") (unit 1)
         )
       )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "C7") (unit 1)
+        )
+      )
     )
   )
 
@@ -1221,6 +1272,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1da2fca3-0b1f-4005-8c44-4c7e9ca65672))
+    (instances
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "#PWR043") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:+5V") (at 184.15 57.15 0) (unit 1)
@@ -1239,6 +1297,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bfa95fa1-b9b2-415f-aebe-fa576590f7b3))
+    (instances
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "#PWR049") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:C") (at 184.15 69.85 0) (unit 1)
@@ -1264,6 +1329,11 @@
           (reference "C8") (unit 1)
         )
       )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "C8") (unit 1)
+        )
+      )
     )
   )
 
@@ -1283,6 +1353,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 34edcec7-007d-4c44-a1cc-d27ff959b057))
+    (instances
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "#PWR046") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 171.45 76.2 0) (unit 1)
@@ -1301,6 +1378,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 512ce5f8-c2a2-4393-bbf4-5675abaada13))
+    (instances
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "#PWR048") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 184.15 76.2 0) (unit 1)
@@ -1319,6 +1403,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3f65faab-3591-41bc-b2f1-d2fa5f68027e))
+    (instances
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "#PWR050") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:PWR_FLAG") (at 171.45 57.15 0) (unit 1)
@@ -1340,6 +1431,11 @@
     (instances
       (project "DCU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
+          (reference "#FLG03") (unit 1)
+        )
+      )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
           (reference "#FLG03") (unit 1)
         )
       )
@@ -1369,6 +1465,11 @@
           (reference "D22") (unit 1)
         )
       )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "D22") (unit 1)
+        )
+      )
     )
   )
 
@@ -1395,6 +1496,11 @@
           (reference "R10") (unit 1)
         )
       )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "R10") (unit 1)
+        )
+      )
     )
   )
 
@@ -1412,6 +1518,13 @@
     )
     (property "Datasheet" "~" (at 136.525 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "FB1") (unit 1)
+        )
+      )
     )
   )
 
@@ -1431,6 +1544,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 661f2f5e-9738-4da2-b79c-809018134b0b))
+    (instances
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "#PWR047") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "KTHFS:ADP150AUJZ-3.3-R7") (at 219.075 66.04 0) (unit 1)
@@ -1447,6 +1567,13 @@
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP150.pdf" (at 219.075 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "U3") (unit 1)
+        )
+      )
     )
   )
 
@@ -1466,6 +1593,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4e98223c-b884-4061-8bfd-6c669c6462d8))
+    (instances
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "#PWR037") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:+3.3V") (at 247.65 57.15 0) (unit 1)
@@ -1484,6 +1618,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c27dce77-a3f3-47fb-b101-144d0d8158c5))
+    (instances
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "#PWR040") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:C") (at 247.65 69.85 0) (unit 1)
@@ -1509,6 +1650,11 @@
           (reference "C5") (unit 1)
         )
       )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "C5") (unit 1)
+        )
+      )
     )
   )
 
@@ -1528,6 +1674,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a2be760c-8578-4892-bddc-f9d04aa6f84c))
+    (instances
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "#PWR041") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:C") (at 234.95 69.85 0) (unit 1)
@@ -1553,6 +1706,11 @@
           (reference "C4") (unit 1)
         )
       )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "C4") (unit 1)
+        )
+      )
     )
   )
 
@@ -1572,6 +1730,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e1a69bce-c694-4fac-b4b8-64410de037c2))
+    (instances
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "#PWR039") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:PWR_FLAG") (at 88.9 57.15 0) (unit 1)
@@ -1596,6 +1761,11 @@
           (reference "#FLG02") (unit 1)
         )
       )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "#FLG02") (unit 1)
+        )
+      )
     )
   )
 
@@ -1615,6 +1785,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4b048bb2-5cb7-4580-b2a0-d258b36a2b50))
+    (instances
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "#PWR0158") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 219.075 76.2 0) (unit 1)
@@ -1633,6 +1810,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4963ab08-5a4b-4a75-aaa2-5bd26326f740))
+    (instances
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "#PWR0159") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:D") (at 82.55 127 270) (mirror x) (unit 1)
@@ -1659,6 +1843,11 @@
         )
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
           (reference "D?") (unit 1)
+        )
+      )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -1690,6 +1879,11 @@
           (reference "D?") (unit 1)
         )
       )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "D11") (unit 1)
+        )
+      )
     )
   )
 
@@ -1717,6 +1911,11 @@
         )
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
           (reference "D?") (unit 1)
+        )
+      )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -1748,6 +1947,11 @@
           (reference "D?") (unit 1)
         )
       )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "D3") (unit 1)
+        )
+      )
     )
   )
 
@@ -1775,6 +1979,11 @@
         )
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
           (reference "D?") (unit 1)
+        )
+      )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -1806,6 +2015,11 @@
           (reference "D?") (unit 1)
         )
       )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "D9") (unit 1)
+        )
+      )
     )
   )
 
@@ -1833,6 +2047,11 @@
         )
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
           (reference "D?") (unit 1)
+        )
+      )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -1864,6 +2083,11 @@
           (reference "D?") (unit 1)
         )
       )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "D1") (unit 1)
+        )
+      )
     )
   )
 
@@ -1890,6 +2114,11 @@
         )
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
           (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "#PWR0160") (unit 1)
         )
       )
     )
@@ -1921,6 +2150,11 @@
           (reference "D?") (unit 1)
         )
       )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "D16") (unit 1)
+        )
+      )
     )
   )
 
@@ -1948,6 +2182,11 @@
         )
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
           (reference "D?") (unit 1)
+        )
+      )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "D15") (unit 1)
         )
       )
     )
@@ -1979,6 +2218,11 @@
           (reference "D?") (unit 1)
         )
       )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "D14") (unit 1)
+        )
+      )
     )
   )
 
@@ -2006,6 +2250,11 @@
         )
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
           (reference "D?") (unit 1)
+        )
+      )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "D13") (unit 1)
         )
       )
     )
@@ -2036,6 +2285,11 @@
           (reference "#PWR?") (unit 1)
         )
       )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "#PWR0161") (unit 1)
+        )
+      )
     )
   )
 
@@ -2062,6 +2316,11 @@
         )
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
           (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "#PWR0162") (unit 1)
         )
       )
     )
@@ -2092,6 +2351,11 @@
           (reference "#PWR?") (unit 1)
         )
       )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "#PWR0163") (unit 1)
+        )
+      )
     )
   )
 
@@ -2118,6 +2382,11 @@
         )
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
           (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "#PWR0164") (unit 1)
         )
       )
     )
@@ -2148,6 +2417,15 @@
           (reference "#PWR?") (unit 1)
         )
       )
+      (project "POWER"
+        (path "/cdd3e9f1-9c00-403f-9184-7e2f38425a2b"
+          (reference "#PWR0165") (unit 1)
+        )
+      )
     )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
   )
 )
